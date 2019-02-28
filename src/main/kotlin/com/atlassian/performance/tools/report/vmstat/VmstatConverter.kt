@@ -17,15 +17,12 @@ internal class VmstatConverter {
             .toFile()
             .inputStream()
             .bufferedReader()
-            .use {
-                it.lines()
-                    .map { it.trim() }
-                    .filter { !it.startsWith("procs") }
-                    .filter { !it.startsWith("r") }
-                    .map { it.replace(Regex(" +"), ",") }
+            .use { reader ->
+                VmstatLog()
+                    .cleanUp(reader.lines())
+                    .map { it.replace(" ", ",") }
                     .forEach { vmstatCsv.toFile().appendText(it + "\n") }
             }
-
         return vmstatCsv
     }
 }

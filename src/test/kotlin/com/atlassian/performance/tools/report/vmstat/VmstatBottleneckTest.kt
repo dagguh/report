@@ -3,6 +3,7 @@ package com.atlassian.performance.tools.report.vmstat
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import java.io.BufferedReader
+import kotlin.streams.asSequence
 
 class VmstatBottleneckTest {
 
@@ -20,18 +21,29 @@ class VmstatBottleneckTest {
     private fun findBottlenecks(
         vmstat: BufferedReader
     ): Bottleneck {
-        val cpu = CpuUtilization(
-            user = 2,
-            system = 0,
-            idle = 97,
-            waiting = 1,
-            stolen = 0
-        )
+        val firstLine = VmstatLog()
+            .cleanUp(vmstat.lines())
+            .asSequence()
+            .first()
+        val cpu = readCpuUtilization(firstLine)
         return when {
             cpu.system > cpu.user / 10 -> Bottleneck.SYSTEM
             cpu.idle < 0.1 -> Bottleneck.APPLICATION
             else -> Bottleneck.IDLE
         }
+    }
+
+    private fun readCpuUtilization(
+        line: String
+    ): CpuUtilization {
+        val values = line.split(" ")
+        return CpuUtilization(
+            user = values[12].toInt(),
+            system = values[13].toInt(),
+            idle = values[14].toInt(),
+            waiting = values[15].toInt(),
+            stolen = values[16].toInt()
+        )
     }
 
     /**
@@ -43,9 +55,9 @@ class VmstatBottleneckTest {
      * * `wa`: Time spent waiting for IO. Prior to Linux 2.5.41, included in idle.
      * * `st`: Time stolen from a virtual machine. Prior to Linux 2.6.11, unknown.
      */
-    private class CpuUtilization(
-        val system: Int,
+    private data class CpuUtilization(
         val user: Int,
+        val system: Int,
         val idle: Int,
         val waiting: Int,
         val stolen: Int
