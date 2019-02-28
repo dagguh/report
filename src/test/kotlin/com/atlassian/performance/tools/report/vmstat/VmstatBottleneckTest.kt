@@ -13,24 +13,32 @@ class VmstatBottleneckTest {
             .getResourceAsStream("./c5.18xlarge-3nodes-run1-jiranode1-vmstat.log")
             .bufferedReader()
 
-        val bottleneck = vmstat.use { findBottlenecks(it) }
+        val bottleneckCounts = vmstat.use { findBottlenecks(it) }
 
-        assertThat(bottleneck).isEqualTo(Bottleneck.IDLE)
+        assertThat(bottleneckCounts).isEqualTo(mapOf(
+            Bottleneck.SYSTEM to 8,
+            Bottleneck.IDLE to 911
+        ))
     }
 
     private fun findBottlenecks(
         vmstat: BufferedReader
-    ): Bottleneck {
-        val firstLine = VmstatLog()
+    ): Map<Bottleneck, Int> {
+        return VmstatLog()
             .cleanUp(vmstat.lines())
             .asSequence()
-            .first()
-        val cpu = readCpuUtilization(firstLine)
-        return when {
-            cpu.system > cpu.user / 10 -> Bottleneck.SYSTEM
-            cpu.idle < 0.1 -> Bottleneck.APPLICATION
-            else -> Bottleneck.IDLE
-        }
+            .map { readCpuUtilization(it) }
+            .map { findBottleneck(it) }
+            .groupingBy { it }
+            .eachCount()
+    }
+
+    private fun findBottleneck(
+        cpu: CpuUtilization
+    ): Bottleneck = when {
+        cpu.system > cpu.user / 10 -> Bottleneck.SYSTEM
+        cpu.idle < 0.1 -> Bottleneck.APPLICATION
+        else -> Bottleneck.IDLE
     }
 
     private fun readCpuUtilization(
