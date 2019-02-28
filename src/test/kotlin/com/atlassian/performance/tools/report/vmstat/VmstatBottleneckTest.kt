@@ -21,6 +21,21 @@ class VmstatBottleneckTest {
         ))
     }
 
+
+    @Test
+    fun shouldFindIdleBottleneckOnSecondNode() {
+        val vmstat = this::class.java
+            .getResourceAsStream("./c5.18xlarge-3nodes-run1-jiranode2-vmstat.log")
+            .bufferedReader()
+
+        val bottleneckCounts = vmstat.use { findBottlenecks(it) }
+
+        assertThat(bottleneckCounts).isEqualTo(mapOf(
+            Bottleneck.SYSTEM to 11,
+            Bottleneck.IDLE to 793
+        ))
+    }
+
     private fun findBottlenecks(
         vmstat: BufferedReader
     ): Map<Bottleneck, Int> {
