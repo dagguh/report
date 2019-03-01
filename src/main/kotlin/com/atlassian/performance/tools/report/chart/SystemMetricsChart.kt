@@ -28,10 +28,10 @@ internal class SystemMetricsChart(
     )
 
     fun toJson(): JsonObject {
-        val metrics = allMetrics
+        val dimensionMetrics = allMetrics
             .filter { it.dimension == dimension }
             .sortedBy { it.start }
-        val chartData = Chart(plotValuesPerSystem(metrics))
+        val chartData = Chart(plot(dimensionMetrics))
         return Json.createObjectBuilder()
             .add("title", title)
             .add("axis", axis.toJson())
@@ -39,58 +39,32 @@ internal class SystemMetricsChart(
             .build()
     }
 
-    private fun plotValuesPerSystem(
+    private fun plot(
         metrics: List<SystemMetric>
-    ): List<ChartLine<Instant>> {
-        return metrics
-            .map { it.system }.toSet().sorted()
-            .map { system ->
-                getReducedValue(
-                    metrics = metrics.filter { it.system == system },
-                    label = system
-                )
-            }
-    }
+    ): List<ChartLine<Instant>> = metrics
+        .groupBy { it.system }
+        .entries
+        .sortedBy { it.key }
+        .map { (system, systemMetrics) -> plot(system, systemMetrics) }
 
-    private fun getReducedValue(
-        metrics: List<SystemMetric>,
-        label: String
-    ): ChartLine<Instant> {
-        return metrics
-            .toChartLine(
-                label = label,
-                type = "line",
-                yAxisId = axis.id,
-                hidden = false
-            ) { dimension.reduction.lambda(it.map { it.value }) }
-    }
-
-    private fun List<SystemMetric>.toChartLine(
-        label: String,
-        yAxisId: String,
-        type: String,
-        hidden: Boolean,
-        reduce: (List<SystemMetric>) -> Double
-    ): ChartLine<Instant> {
-        val data = this
-            .asSequence()
+    private fun plot(
+        system: String,
+        systemMetrics: List<SystemMetric>
+    ): ChartLine<Instant> = ChartLine(
+        label = system,
+        type = "line",
+        yAxisId = axis.id,
+        data = systemMetrics
             .groupBy { it.start.truncatedTo(ChronoUnit.MINUTES) }
-            .mapValues { entry ->
-                reduce(entry.value)
-            }
-            .map {
-                Tick(
-                    time = it.key,
-                    value = it.value
-                )
-            }
+            .map { (time, groupedMetrics) -> Tick(time, reduce(groupedMetrics)) },
+        hidden = false
+    )
 
-        return ChartLine(
-            label = label,
-            type = type,
-            yAxisId = yAxisId,
-            data = data,
-            hidden = hidden
+    private fun reduce(
+        metrics: List<SystemMetric>
+    ): Double = dimension
+        .reduction
+        .lambda(
+            metrics.map { it.value }
         )
-    }
 }
