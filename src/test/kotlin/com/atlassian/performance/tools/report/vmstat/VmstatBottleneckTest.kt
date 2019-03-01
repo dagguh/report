@@ -8,10 +8,8 @@ import kotlin.streams.asSequence
 class VmstatBottleneckTest {
 
     @Test
-    fun shouldFindIdleBottleneck() {
-        val vmstat = this::class.java
-            .getResourceAsStream("./c5.18xlarge-3nodes-run1-jiranode1-vmstat.log")
-            .bufferedReader()
+    fun shouldFindIdleBottleneckInJswHardwareExplorationNodeOne() {
+        val vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node1.log")
 
         val bottleneckCounts = vmstat.use { findBottlenecks(it) }
 
@@ -21,12 +19,9 @@ class VmstatBottleneckTest {
         ))
     }
 
-
     @Test
-    fun shouldFindIdleBottleneckOnSecondNode() {
-        val vmstat = this::class.java
-            .getResourceAsStream("./c5.18xlarge-3nodes-run1-jiranode2-vmstat.log")
-            .bufferedReader()
+    fun shouldFindIdleBottleneckInJswHardwareExplorationNodeTwo() {
+        val vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node2.log")
 
         val bottleneckCounts = vmstat.use { findBottlenecks(it) }
 
@@ -35,6 +30,36 @@ class VmstatBottleneckTest {
             Bottleneck.IDLE to 793
         ))
     }
+
+    @Test
+    fun shouldFindMixedBottlenecksInJswRegressionTest() {
+        val vmstat = readResource("./jsw-8.0.1-regression.log")
+
+        val bottleneckCounts = vmstat.use { findBottlenecks(it) }
+
+        assertThat(bottleneckCounts).isEqualTo(mapOf(
+            Bottleneck.SYSTEM to 444,
+            Bottleneck.IDLE to 388
+        ))
+    }
+
+    @Test
+    fun shouldFindMostlyIdleBottlenecksInJswDataScalingReport() {
+        val vmstat = readResource("./jsw-7.8.0-dsr.log")
+
+        val bottleneckCounts = vmstat.use { findBottlenecks(it) }
+
+        assertThat(bottleneckCounts).isEqualTo(mapOf(
+            Bottleneck.SYSTEM to 222,
+            Bottleneck.IDLE to 650
+        ))
+    }
+
+    private fun readResource(
+        resourceName: String
+    ): BufferedReader = this::class.java
+        .getResourceAsStream(resourceName)
+        .bufferedReader()
 
     private fun findBottlenecks(
         vmstat: BufferedReader
@@ -52,8 +77,8 @@ class VmstatBottleneckTest {
         cpu: CpuUtilization
     ): Bottleneck = when {
         cpu.system > cpu.user / 10 -> Bottleneck.SYSTEM
-        cpu.idle < 0.1 -> Bottleneck.APPLICATION
-        else -> Bottleneck.IDLE
+        cpu.idle > 0.1 -> Bottleneck.IDLE
+        else -> Bottleneck.APPLICATION
     }
 
     private fun readCpuUtilization(
