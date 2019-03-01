@@ -1,7 +1,6 @@
 package com.atlassian.performance.tools.report.vmstat
 
-import com.atlassian.performance.tools.report.vmstat.VmstatBottleneck.Bottleneck.IDLE
-import com.atlassian.performance.tools.report.vmstat.VmstatBottleneck.Bottleneck.SYSTEM
+import com.atlassian.performance.tools.report.vmstat.VmstatBottleneck.Bottleneck.*
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import java.io.BufferedReader
@@ -16,6 +15,7 @@ class VmstatBottleneckTest {
             vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node1.log"),
             expectedBottlenecks = mapOf(
                 SYSTEM to 8,
+                APPLICATION to 0,
                 IDLE to 911
             )
         )
@@ -27,6 +27,7 @@ class VmstatBottleneckTest {
             vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node2.log"),
             expectedBottlenecks = mapOf(
                 SYSTEM to 11,
+                APPLICATION to 0,
                 IDLE to 793
             )
         )
@@ -38,6 +39,7 @@ class VmstatBottleneckTest {
             vmstat = readResource("./jsw-8.0.1-regression.log"),
             expectedBottlenecks = mapOf(
                 SYSTEM to 444,
+                APPLICATION to 0,
                 IDLE to 388
             )
         )
@@ -49,6 +51,7 @@ class VmstatBottleneckTest {
             vmstat = readResource("./jsw-7.8.0-dsr.log"),
             expectedBottlenecks = mapOf(
                 SYSTEM to 222,
+                APPLICATION to 0,
                 IDLE to 650
             )
         )

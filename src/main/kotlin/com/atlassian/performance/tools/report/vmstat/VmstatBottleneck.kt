@@ -8,13 +8,16 @@ class VmstatBottleneck {
     fun find(
         vmstat: BufferedReader
     ): Map<Bottleneck, Int> {
-        return VmstatLog()
+        val nonZeroCounts = VmstatLog()
             .cleanUp(vmstat.lines())
             .asSequence()
             .map { readCpuUtilization(it) }
             .map { findBottleneck(it) }
             .groupingBy { it }
             .eachCount()
+        return Bottleneck.values()
+            .map { it to nonZeroCounts.getOrDefault(it, 0) }
+            .toMap()
     }
 
     private fun readCpuUtilization(
