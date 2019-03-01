@@ -12,50 +12,55 @@ class VmstatBottleneckTest {
 
     @Test
     fun shouldFindIdleBottleneckInJswHardwareExplorationNodeOne() {
-        val vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node1.log")
-
-        val bottleneckCounts = vmstat.use { vmstatBottleneck.find(it) }
-
-        assertThat(bottleneckCounts).isEqualTo(mapOf(
-            SYSTEM to 8,
-            IDLE to 911
-        ))
+        assertBottlenecksFound(
+            vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node1.log"),
+            expectedBottlenecks = mapOf(
+                SYSTEM to 8,
+                IDLE to 911
+            )
+        )
     }
 
     @Test
     fun shouldFindIdleBottleneckInJswHardwareExplorationNodeTwo() {
-        val vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node2.log")
-
-        val bottleneckCounts = vmstat.use { vmstatBottleneck.find(it) }
-
-        assertThat(bottleneckCounts).isEqualTo(mapOf(
-            SYSTEM to 11,
-            IDLE to 793
-        ))
+        assertBottlenecksFound(
+            vmstat = readResource("./jsw-7.13.0-hwr-c5.18xlarge-node2.log"),
+            expectedBottlenecks = mapOf(
+                SYSTEM to 11,
+                IDLE to 793
+            )
+        )
     }
 
     @Test
     fun shouldFindMixedBottlenecksInJswRegressionTest() {
-        val vmstat = readResource("./jsw-8.0.1-regression.log")
-
-        val bottleneckCounts = vmstat.use { vmstatBottleneck.find(it) }
-
-        assertThat(bottleneckCounts).isEqualTo(mapOf(
-            SYSTEM to 444,
-            IDLE to 388
-        ))
+        assertBottlenecksFound(
+            vmstat = readResource("./jsw-8.0.1-regression.log"),
+            expectedBottlenecks = mapOf(
+                SYSTEM to 444,
+                IDLE to 388
+            )
+        )
     }
 
     @Test
     fun shouldFindMostlyIdleBottlenecksInJswDataScalingReport() {
-        val vmstat = readResource("./jsw-7.8.0-dsr.log")
+        assertBottlenecksFound(
+            vmstat = readResource("./jsw-7.8.0-dsr.log"),
+            expectedBottlenecks = mapOf(
+                SYSTEM to 222,
+                IDLE to 650
+            )
+        )
+    }
 
+    private fun assertBottlenecksFound(
+        vmstat: BufferedReader,
+        expectedBottlenecks: Map<VmstatBottleneck.Bottleneck, Int>
+    ) {
         val bottleneckCounts = vmstat.use { vmstatBottleneck.find(it) }
 
-        assertThat(bottleneckCounts).isEqualTo(mapOf(
-            SYSTEM to 222,
-            IDLE to 650
-        ))
+        assertThat(bottleneckCounts).isEqualTo(expectedBottlenecks)
     }
 
     private fun readResource(
