@@ -1,7 +1,8 @@
 package com.atlassian.performance.tools.report.chart
 
-import com.atlassian.performance.tools.infrastructure.api.metric.Dimension
-import com.atlassian.performance.tools.infrastructure.api.metric.SystemMetric
+import com.atlassian.performance.tools.report.Dimension
+import com.atlassian.performance.tools.report.TimeDatum
+import com.atlassian.performance.tools.report.TimeSeries
 import java.time.Instant
 import java.time.temporal.ChronoUnit
 import javax.json.Json
@@ -9,62 +10,49 @@ import javax.json.JsonObject
 
 internal class SystemMetricsChart(
     private val title: String,
-    private val allMetrics: List<SystemMetric>,
-    private val dimension: Dimension,
-    private val axis: ChartAxis
+    private val allSeries: List<TimeSeries>,
+    private val dimension: Dimension
 ) {
-    constructor(
-        allMetrics: List<SystemMetric>,
-        dimension: Dimension,
-        axisId: String
-    ) : this(
-        title = dimension.description,
-        allMetrics = allMetrics,
-        dimension = dimension,
-        axis = ChartAxis(
-            id = axisId,
-            text = dimension.description
-        )
+    private val chartAxis = ChartAxis(
+        dimension.name,
+        if (dimension.unit != null) "${dimension.name} [${dimension.unit}]" else dimension.name
     )
 
     fun toJson(): JsonObject {
-        val dimensionMetrics = allMetrics
-            .filter { it.dimension == dimension }
-            .sortedBy { it.start }
-        val chartData = Chart(plot(dimensionMetrics))
+        val dimensionSeries = allSeries.filter { it.dimension == dimension }
+        val chartData = Chart(plot(dimensionSeries))
         return Json.createObjectBuilder()
             .add("title", title)
-            .add("axis", axis.toJson())
+            .add("axis", chartAxis.toJson())
             .add("data", chartData.toJson())
             .build()
     }
 
     private fun plot(
-        metrics: List<SystemMetric>
-    ): List<ChartLine<Instant>> = metrics
-        .groupBy { it.system }
-        .entries
-        .sortedBy { it.key }
-        .map { (system, systemMetrics) -> plot(system, systemMetrics) }
+        series: List<TimeSeries>
+    ): List<ChartLine<Instant>> = series
+        .sortedBy { it.name }
+        .map { plot(it) }
 
     private fun plot(
-        system: String,
-        systemMetrics: List<SystemMetric>
+        series: TimeSeries
     ): ChartLine<Instant> = ChartLine(
-        label = system,
+        label = series.name,
         type = "line",
-        yAxisId = axis.id,
-        data = systemMetrics
+        yAxisId = chartAxis.id,
+        data = series
+            .data
             .groupBy { it.start.truncatedTo(ChronoUnit.MINUTES) }
-            .map { (time, groupedMetrics) -> Tick(time, reduce(groupedMetrics)) },
+            .map { (time, data) -> tick(time, data, series) },
         hidden = false
     )
 
-    private fun reduce(
-        metrics: List<SystemMetric>
-    ): Double = dimension
-        .reduction
-        .lambda(
-            metrics.map { it.value }
-        )
+    private fun tick(
+        time: Instant,
+        data: List<TimeDatum>,
+        series: TimeSeries
+    ): Tick = Tick(
+        time,
+        series.reduction(data.map { it.value })
+    )
 }

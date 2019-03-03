@@ -1,20 +1,36 @@
 package com.atlassian.performance.tools.report.chart
 
-import com.atlassian.performance.tools.infrastructure.api.metric.Dimension
 import com.atlassian.performance.tools.infrastructure.api.metric.SystemMetric
 import com.atlassian.performance.tools.io.api.ensureParentDirectory
 import com.atlassian.performance.tools.jiraactions.api.ActionMetric
+import com.atlassian.performance.tools.report.Dimension
 import com.atlassian.performance.tools.report.JsonStyle
+import com.atlassian.performance.tools.report.TimeDatum
+import com.atlassian.performance.tools.report.TimeSeries
 import com.atlassian.performance.tools.workspace.api.git.GitRepo
 import org.apache.logging.log4j.LogManager
 import java.nio.file.Path
 import javax.json.Json
 import javax.json.JsonArray
+import com.atlassian.performance.tools.infrastructure.api.metric.Dimension as LegacyDimension
 
 internal class TimelineChart(
     private val repo: GitRepo
 ) {
     private val logger = LogManager.getLogger(this::class.java)
+    private val dimensions = listOf(
+        LegacyDimension.CPU_LOAD,
+        LegacyDimension.JSTAT_SURVI_0,
+        LegacyDimension.JSTAT_SURVI_1,
+        LegacyDimension.JSTAT_EDEN,
+        LegacyDimension.JSTAT_OLD,
+        LegacyDimension.JSTAT_COMPRESSED_CLASS,
+        LegacyDimension.JSTAT_YOUNG_GEN_GC,
+        LegacyDimension.JSTAT_YOUNG_GEN_GC_TIME,
+        LegacyDimension.JSTAT_FULL_GC,
+        LegacyDimension.JSTAT_FULL_GC_TIME,
+        LegacyDimension.JSTAT_TOTAL_GC_TIME
+    ).map { Dimension(it) }
 
     fun generate(
         output: Path,
@@ -22,6 +38,7 @@ internal class TimelineChart(
         systemMetrics: List<SystemMetric>
     ) {
         val trimmedSystemMetrics = trimSystemMetrics(actionMetrics, systemMetrics)
+        val systemSeries = convert(trimmedSystemMetrics)
         val report = this::class
             .java
             .getResourceAsStream("timeline-chart-template.html")
@@ -33,7 +50,7 @@ internal class TimelineChart(
             )
             .replace(
                 oldValue = "'<%= systemMetricsCharts =%>'",
-                newValue = JsonStyle().prettyPrint(systemMetricsCharts(trimmedSystemMetrics))
+                newValue = JsonStyle().prettyPrint(systemMetricsCharts(systemSeries))
             )
             .replace(
                 oldValue = "'<%= commit =%>'",
@@ -44,66 +61,20 @@ internal class TimelineChart(
     }
 
     private fun systemMetricsCharts(
-        trimmedSystemMetrics: List<SystemMetric>
+        seriesPerDimension: Map<Dimension, List<TimeSeries>>
     ): JsonArray {
-        return Json
-            .createArrayBuilder()
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.CPU_LOAD,
-                axisId = "cpu-load-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_SURVI_0,
-                axisId = "survi-0-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_SURVI_1,
-                axisId = "survi-1-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_EDEN,
-                axisId = "eden-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_OLD,
-                axisId = "old-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_COMPRESSED_CLASS,
-                axisId = "meta-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_YOUNG_GEN_GC,
-                axisId = "young-gc-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_YOUNG_GEN_GC_TIME,
-                axisId = "young-gc-time-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_FULL_GC,
-                axisId = "full-gc-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_FULL_GC_TIME,
-                axisId = "full-gc-time-axis"
-            ).toJson())
-            .add(SystemMetricsChart(
-                allMetrics = trimmedSystemMetrics,
-                dimension = Dimension.JSTAT_TOTAL_GC_TIME,
-                axisId = "total-gc-time-axis"
-            ).toJson())
-            .build()
+        val json = Json.createArrayBuilder()
+        dimensions
+            .mapNotNull {
+                SystemMetricsChart(
+                    title = it.name,
+                    allSeries = seriesPerDimension[it] ?: return@mapNotNull null,
+                    dimension = it
+                )
+            }
+            .map { it.toJson() }
+            .forEach { json.add(it) }
+        return json.build()
     }
 
     private fun trimSystemMetrics(
@@ -129,4 +100,22 @@ internal class TimelineChart(
             .filter { it.start.isAfter(beginning) }
             .filter { it.start.isBefore(end) }
     }
+
+    private fun convert(
+        allSystemMetrics: List<SystemMetric>
+    ): Map<Dimension, List<TimeSeries>> = allSystemMetrics
+        .groupBy { it.dimension }
+        .mapValues { (legacyDimension, dimensionMetrics) ->
+            dimensionMetrics
+                .groupBy { it.system }
+                .map { (system, systemMetrics) ->
+                    TimeSeries(
+                        name = system,
+                        data = systemMetrics.map { TimeDatum(it.start, it.value) },
+                        dimension = Dimension(legacyDimension),
+                        reduction = legacyDimension.reduction.lambda
+                    )
+                }
+        }
+        .mapKeys { (legacyDimension, _) -> Dimension(legacyDimension) }
 }
