@@ -13,6 +13,12 @@ import java.nio.file.Path
  * @since 3.1.0
  */
 abstract class RawCohortResult private constructor() {
+
+    /**
+     * TODO
+     */
+    abstract val cohort: String
+
     /**
      * An absolute path pointing to results on machine where the tests were executed.
      */
@@ -50,7 +56,7 @@ abstract class RawCohortResult private constructor() {
     }
 
     private class FullRawCohortResult(
-        private val cohort: String,
+        override val cohort: String,
         override val results: Path
     ) : RawCohortResult() {
         override val failure: Exception? = null
@@ -83,7 +89,7 @@ abstract class RawCohortResult private constructor() {
     }
 
     private class FailedRawCohortResult(
-        private val cohort: String,
+        override val cohort: String,
         override val results: Path,
         override val failure: Exception
     ) : RawCohortResult() {
@@ -96,7 +102,7 @@ abstract class RawCohortResult private constructor() {
     }
 
     private class LegacyRawCohortResult(
-        private val cohort: String,
+        override val cohort: String,
         override val failure: Exception
     ) : RawCohortResult() {
 
