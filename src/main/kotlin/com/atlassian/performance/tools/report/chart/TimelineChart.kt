@@ -7,9 +7,11 @@ import com.atlassian.performance.tools.report.Dimension
 import com.atlassian.performance.tools.report.JsonStyle
 import com.atlassian.performance.tools.report.TimeDatum
 import com.atlassian.performance.tools.report.TimeSeries
+import com.atlassian.performance.tools.report.vmstat.VmstatBottleneck
 import com.atlassian.performance.tools.workspace.api.git.GitRepo
 import org.apache.logging.log4j.LogManager
 import java.nio.file.Path
+import java.time.Instant
 import javax.json.Json
 import javax.json.JsonArray
 import com.atlassian.performance.tools.infrastructure.api.metric.Dimension as LegacyDimension
@@ -35,7 +37,8 @@ internal class TimelineChart(
     fun generate(
         output: Path,
         actionMetrics: List<ActionMetric>,
-        systemMetrics: List<SystemMetric>
+        systemMetrics: List<SystemMetric>,
+        bottlenecksChart: Chart<Instant>
     ) {
         val trimmedSystemMetrics = trimSystemMetrics(actionMetrics, systemMetrics)
         val systemSeries = convert(trimmedSystemMetrics)
@@ -47,6 +50,10 @@ internal class TimelineChart(
             .replace(
                 oldValue = "'<%= virtualUserChartData =%>'",
                 newValue = JsonStyle().prettyPrint(ChartBuilder().build(actionMetrics).toJson())
+            )
+            .replace(
+                oldValue = "'<%= bottleneckChartData =%>'",
+                newValue = JsonStyle().prettyPrint(bottlenecksChart.toJson())
             )
             .replace(
                 oldValue = "'<%= systemMetricsCharts =%>'",
@@ -61,7 +68,7 @@ internal class TimelineChart(
     }
 
     private fun systemMetricsCharts(
-        seriesPerDimension: Map<Dimension, List<TimeSeries>>
+        seriesPerDimension: Map<Dimension, List<TimeSeries<Double>>>
     ): JsonArray {
         val json = Json.createArrayBuilder()
         dimensions
@@ -103,7 +110,7 @@ internal class TimelineChart(
 
     private fun convert(
         allSystemMetrics: List<SystemMetric>
-    ): Map<Dimension, List<TimeSeries>> = allSystemMetrics
+    ): Map<Dimension, List<TimeSeries<Double>>> = allSystemMetrics
         .groupBy { it.dimension }
         .mapValues { (legacyDimension, dimensionMetrics) ->
             dimensionMetrics

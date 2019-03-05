@@ -1,6 +1,8 @@
 package com.atlassian.performance.tools.report.chart
 
+import com.atlassian.performance.tools.report.api.FullTimeline
 import com.atlassian.performance.tools.report.api.result.LocalRealResult
+import com.atlassian.performance.tools.report.vmstat.MultiNodeVmstatBottleneck
 import com.atlassian.performance.tools.workspace.api.git.HardcodedGitRepo
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
@@ -12,17 +14,28 @@ class TimelineChartTest {
 
     @Test
     fun shouldGenerateOutput() {
-        val result = LocalRealResult(Paths.get("QUICK-54/c5.18xlarge, 2 nodes, run 1.zip")).loadEdible()
+        val rawResult = LocalRealResult(Paths.get("QUICK-54/c5.18xlarge, 2 nodes, run 1.zip")).loadRaw()
+        val result = rawResult.prepareForJudgement(FullTimeline())
         val actualOutput = Files.createTempFile("apt-report-test-timeline", ".html")
+        val bottlenecksChart = BottleneckTimelineChart().plot(
+            MultiNodeVmstatBottleneck().plotBottlenecksPerNode(rawResult)
+        )
         val chart = TimelineChart(HardcodedGitRepo(head = "abcd"))
 
         chart.generate(
             actualOutput,
             result.actionMetrics,
-            result.systemMetrics
+            result.systemMetrics,
+            bottlenecksChart
         )
 
         val expectedOutput = File(javaClass.getResource("expected-timeline-chart.html").toURI()).toPath()
         assertThat(actualOutput).hasSameContentAs(expectedOutput)
+    }
+
+    @Test
+    fun REMOVE_THIS() {
+
+        TODO()
     }
 }

@@ -17,12 +17,13 @@
 <body>
 <span class="jpt-flag">JPT commit: '<%= commit =%>'</span>
 <canvas id="vu-chart"></canvas>
+<canvas id="bottleneck-chart"></canvas>
 <script>
     new Chart(
         document.getElementById("vu-chart").getContext("2d"),
         {
             type: 'bar',
-            data: '<%= virtualUserChartData =%>',
+                data: '<%= virtualUserChartData =%>',
             options: {
                 responsive: true,
                 hoverMode: 'index',
@@ -84,7 +85,46 @@
             }
         }
     );
-
+</script>
+<script>
+    new Chart(
+        document.getElementById("bottleneck-chart").getContext("2d"),
+        {
+            type: 'bar',
+            data: '<%= bottleneckChartData =%>',
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: true,
+                title: {
+                    display: true,
+                    text: 'Bottlenecks across application nodes'
+                },
+                scales: {
+                    xAxes: [{
+                        stacked: true,
+                        barPercentage: 1.0,
+                        categoryPercentage: 1.0
+                    }],
+                    yAxes: [
+                        {
+                            type: "linear",
+                            display: true,
+                            stacked: true,
+                            position: "left",
+                            scaleLabel: {
+                                display: true,
+                                labelString: "nodes bottlenecked"
+                            },
+                            id: "node-count-axis"
+                        }
+                    ]
+                }
+            }
+        }
+    );
+</script>
+<script>
     /**
      * @typedef {Object} SystemChartOptions
      * @property {Object} data

@@ -10,7 +10,7 @@ import javax.json.JsonObject
 
 internal class SystemMetricsChart(
     private val title: String,
-    private val allSeries: List<TimeSeries>,
+    private val allSeries: List<TimeSeries<Double>>,
     private val dimension: Dimension
 ) {
     private val chartAxis = ChartAxis(
@@ -29,13 +29,13 @@ internal class SystemMetricsChart(
     }
 
     private fun plot(
-        series: List<TimeSeries>
+        series: List<TimeSeries<Double>>
     ): List<ChartLine<Instant>> = series
         .sortedBy { it.name }
         .map { plot(it) }
 
     private fun plot(
-        series: TimeSeries
+        series: TimeSeries<Double>
     ): ChartLine<Instant> = ChartLine(
         label = series.name,
         type = "line",
@@ -49,8 +49,8 @@ internal class SystemMetricsChart(
 
     private fun tick(
         time: Instant,
-        data: List<TimeDatum>,
-        series: TimeSeries
+        data: List<TimeDatum<Double>>,
+        series: TimeSeries<Double>
     ): Tick = Tick(
         time,
         series.reduction(data.map { it.value })

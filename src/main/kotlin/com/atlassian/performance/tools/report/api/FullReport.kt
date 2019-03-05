@@ -5,9 +5,11 @@ import com.atlassian.performance.tools.jiraactions.api.ActionMetricStatistics
 import com.atlassian.performance.tools.report.api.action.EditedIssuesReport
 import com.atlassian.performance.tools.report.api.action.SearchJqlReport
 import com.atlassian.performance.tools.report.api.result.EdibleResult
+import com.atlassian.performance.tools.report.chart.BottleneckTimelineChart
 import com.atlassian.performance.tools.report.chart.MeanLatencyChart
 import com.atlassian.performance.tools.report.chart.TimelineChart
 import com.atlassian.performance.tools.report.distribution.DistributionComparison
+import com.atlassian.performance.tools.report.vmstat.MultiNodeVmstatBottleneck
 import com.atlassian.performance.tools.workspace.api.TestWorkspace
 import com.atlassian.performance.tools.workspace.api.git.GitRepo
 import org.apache.logging.log4j.LogManager
@@ -48,7 +50,10 @@ class FullReport {
             TimelineChart(repo).generate(
                 output = cohortWorkspace.resolve("time-series-chart.html"),
                 actionMetrics = actionMetrics,
-                systemMetrics = result.systemMetrics
+                systemMetrics = result.systemMetrics,
+                bottlenecksChart = BottleneckTimelineChart().plot(
+                    MultiNodeVmstatBottleneck().plotBottlenecksPerNode(result.raw)
+                )
             )
 
             val report = PlaintextReport(

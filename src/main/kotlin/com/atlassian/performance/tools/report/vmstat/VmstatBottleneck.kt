@@ -1,35 +1,46 @@
 package com.atlassian.performance.tools.report.vmstat
 
+import com.atlassian.performance.tools.report.Dimension
+import com.atlassian.performance.tools.report.TimeDatum
+import com.atlassian.performance.tools.report.TimeSeries
 import java.io.BufferedReader
+import java.time.*
 import kotlin.streams.asSequence
 
 class VmstatBottleneck {
 
-    fun find(
-        vmstat: BufferedReader
-    ): Map<Bottleneck, Int> {
-        val nonZeroCounts = VmstatLog()
+    fun plot(
+        vmstat: BufferedReader,
+        computer: String
+    ): TimeSeries<Bottleneck> = TimeSeries(
+        name = computer,
+        dimension = Dimension("vmstat bottleneck", null),
+        data = VmstatLog()
             .cleanUp(vmstat.lines())
             .asSequence()
-            .map { readCpuUtilization(it) }
-            .map { findBottleneck(it) }
-            .groupingBy { it }
-            .eachCount()
-        return Bottleneck.values()
-            .map { it to nonZeroCounts.getOrDefault(it, 0) }
-            .toMap()
-    }
+            .map { parse(it) }
+            .map { TimeDatum(it.time, findBottleneck(it.cpuUtilization)) }
+            .toList(),
+        reduction = { bottlenecks -> throw Exception("Cannot reduce multiple bottlenecks into one: $bottlenecks") }
+    )
 
-    private fun readCpuUtilization(
+    private fun parse(
         line: String
-    ): CpuUtilization {
+    ): VmstatMetric {
         val values = line.split(" ")
-        return CpuUtilization(
-            user = values[12].toInt(),
-            system = values[13].toInt(),
-            idle = values[14].toInt(),
-            waiting = values[15].toInt(),
-            stolen = values[16].toInt()
+        return VmstatMetric(
+            cpuUtilization = CpuUtilization(
+                user = values[12].toInt(),
+                system = values[13].toInt(),
+                idle = values[14].toInt(),
+                waiting = values[15].toInt(),
+                stolen = values[16].toInt()
+            ),
+            time = ZonedDateTime.of(
+                LocalDate.parse(values[17]),
+                LocalTime.parse(values[18]),
+                ZoneId.of("UTC")
+            ).toInstant()
         )
     }
 
@@ -40,6 +51,11 @@ class VmstatBottleneck {
         cpu.idle > 0.1 -> Bottleneck.IDLE
         else -> Bottleneck.APPLICATION
     }
+
+    private data class VmstatMetric(
+        val cpuUtilization: CpuUtilization,
+        val time: Instant
+    )
 
     /**
      * [Vmstat columns](https://access.redhat.com/solutions/1160343):
@@ -60,6 +76,16 @@ class VmstatBottleneck {
 
     enum class Bottleneck {
         SYSTEM,
+        /**
+         * If you're bottlenecked by IDLE, then you're not utilizing your hardware to the fullest.
+         * If your performance is good, it's fine, because it means you have spare capacity.
+         * If your performance is poor, you can improve your service or change your usage patterns.
+         * Adding more hardware will not meaningfully improve performance.
+         * In order to improve your service, you need to take a look at thread dumps and analyze HTTP thread pool
+         * status breakdown. If all are RUNNABLE, increase your HTTP pool. If a portion is TIMED_WAITING, then you have
+         * spare HTTP capacity. If there's a high WAITING or BLOCKED percentage, then they're locked on some external
+         * resource. See where HTTP threads are stuck and who's holding the locks.
+         */
         IDLE,
         APPLICATION
     }

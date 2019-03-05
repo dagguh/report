@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter.ISO_LOCAL_DATE
 import java.time.format.DateTimeFormatter.ofLocalizedDateTime
 import java.time.format.DateTimeFormatterBuilder
 import java.time.format.FormatStyle
-import java.time.temporal.ChronoField.NANO_OF_SECOND;
+import java.time.temporal.ChronoField.NANO_OF_SECOND
 import javax.json.Json
 import javax.json.JsonArray
 import javax.json.JsonObject
@@ -20,6 +20,7 @@ import javax.json.JsonObject
  * Charts latencies per cohort.
  */
 internal class MeanLatencyChart {
+
     private val logger = LogManager.getLogger(this::class.java)
 
     fun plot(
