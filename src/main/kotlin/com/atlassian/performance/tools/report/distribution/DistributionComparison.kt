@@ -58,7 +58,7 @@ internal class DistributionComparison(
                         cohort = result.cohort,
                         type = "line",
                         yAxisId = yAxisId,
-                        hidden = true
+                        hidden = false
                     )
                 }
         }

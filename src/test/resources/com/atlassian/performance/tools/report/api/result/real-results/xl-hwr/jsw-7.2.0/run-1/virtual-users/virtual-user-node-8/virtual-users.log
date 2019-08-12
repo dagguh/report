@@ -1,0 +1,1027 @@
+2019-05-18T16:31:18,402Z DEBUG {} [] [SeededRandom] Using seed 12345
+2019-05-18T16:31:18,419Z INFO  {} [] [LoadTest] Holding for PT52.5S.
+2019-05-18T16:32:10,922Z DEBUG {} [] [LoadTest] Skipped the setup
+2019-05-18T16:32:10,946Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:11,995Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:12,320Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:12,636Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:12,967Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:13,292Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:13,614Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:13,933Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:14,282Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:14,612Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:14,935Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:15,273Z DEBUG {} [] [GoogleChrome] Starting Chrome
+2019-05-18T16:32:16,028Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a, create user via REST] [TaskTimer] The task took PT0.372S
+2019-05-18T16:32:16,029Z INFO  {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [RestUserGenerator] Created a new user jpt-ca13ddd4-2f7f-4a66-96e2-3a4e0e8c308e
+2019-05-18T16:32:16,031Z INFO  {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [LoadTest] Waiting for PT5.194S
+2019-05-18T16:32:16,322Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987, create user via REST] [TaskTimer] The task took PT0.668S
+2019-05-18T16:32:16,323Z INFO  {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [RestUserGenerator] Created a new user jpt-8d132a79-b56d-4bc8-9c43-6dad732b7ceb
+2019-05-18T16:32:16,323Z INFO  {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [LoadTest] Waiting for PT4.276S
+2019-05-18T16:32:17,699Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f, create user via REST] [TaskTimer] The task took PT2.045S
+2019-05-18T16:32:17,700Z INFO  {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [RestUserGenerator] Created a new user jpt-2d17bdfa-c6b7-493d-bbcd-14e9c3d8e359
+2019-05-18T16:32:17,701Z INFO  {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [LoadTest] Waiting for PT1.648S
+2019-05-18T16:32:19,081Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2, create user via REST] [TaskTimer] The task took PT3.426S
+2019-05-18T16:32:19,081Z INFO  {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [RestUserGenerator] Created a new user jpt-12075987-fcae-41d8-952a-90d3e1b60078
+2019-05-18T16:32:19,082Z INFO  {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [LoadTest] Waiting for PT2.768S
+2019-05-18T16:32:19,086Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5, create user via REST] [TaskTimer] The task took PT3.432S
+2019-05-18T16:32:19,086Z INFO  {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [RestUserGenerator] Created a new user jpt-b24733cc-4f5c-46ab-a9b0-b1ec8ed73d3e
+2019-05-18T16:32:19,087Z WARN  {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [LoadTest] Ramp time prolonged by user generation by PT1.612S
+2019-05-18T16:32:19,101Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 6674089274190705457
+2019-05-18T16:32:19,147Z INFO  {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:19,349Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed -1528963862231680626
+2019-05-18T16:32:19,350Z INFO  {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:19,971Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b, create user via REST] [TaskTimer] The task took PT4.316S
+2019-05-18T16:32:19,971Z INFO  {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [RestUserGenerator] Created a new user jpt-f28cf245-20c3-49b3-9a90-837cfe482622
+2019-05-18T16:32:19,972Z INFO  {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [LoadTest] Waiting for PT3.127S
+2019-05-18T16:32:19,982Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c, create user via REST] [TaskTimer] The task took PT4.328S
+2019-05-18T16:32:19,982Z INFO  {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [RestUserGenerator] Created a new user jpt-48cc0879-c288-4c8d-9fbb-6cdf28b5cea3
+2019-05-18T16:32:19,983Z INFO  {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [LoadTest] Waiting for PT2.491S
+2019-05-18T16:32:20,544Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99, create user via REST] [TaskTimer] The task took PT4.889S
+2019-05-18T16:32:20,544Z INFO  {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [RestUserGenerator] Created a new user jpt-e4153b5c-85e5-4396-8ef6-ab264fc39269
+2019-05-18T16:32:20,544Z WARN  {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [LoadTest] Ramp time prolonged by user generation by PT4.32S
+2019-05-18T16:32:20,545Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 6022414958441676900
+2019-05-18T16:32:20,546Z INFO  {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:20,599Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 651833349628731322
+2019-05-18T16:32:20,600Z INFO  {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:20,610Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0, create user via REST] [TaskTimer] The task took PT4.956S
+2019-05-18T16:32:20,611Z INFO  {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [RestUserGenerator] Created a new user jpt-b1b3b9bc-0b92-461a-8b66-6ff602a2de3e
+2019-05-18T16:32:20,611Z WARN  {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [LoadTest] Ramp time prolonged by user generation by PT3.762S
+2019-05-18T16:32:20,612Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 8265573421575953197
+2019-05-18T16:32:20,612Z INFO  {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:20,955Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64, create user via REST] [TaskTimer] The task took PT5.301S
+2019-05-18T16:32:20,956Z INFO  {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [RestUserGenerator] Created a new user jpt-5fc53981-42dc-4ca9-974c-d37cabfb014c
+2019-05-18T16:32:20,957Z WARN  {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [LoadTest] Ramp time prolonged by user generation by PT2.232S
+2019-05-18T16:32:20,957Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 2132282762986792902
+2019-05-18T16:32:20,958Z INFO  {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:20,976Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0, create user via REST] [TaskTimer] The task took PT5.321S
+2019-05-18T16:32:20,976Z INFO  {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [RestUserGenerator] Created a new user jpt-9252a7e6-4ba1-4966-a107-9881fd10fab5
+2019-05-18T16:32:20,977Z WARN  {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [LoadTest] Ramp time prolonged by user generation by PT2.877S
+2019-05-18T16:32:20,977Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed -4263262838430303025
+2019-05-18T16:32:20,978Z INFO  {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:20,989Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574, create user via REST] [TaskTimer] The task took PT5.335S
+2019-05-18T16:32:20,989Z INFO  {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [RestUserGenerator] Created a new user jpt-4c3cf6c6-6d0b-4598-83de-53def6497a7c
+2019-05-18T16:32:20,990Z WARN  {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [LoadTest] Ramp time prolonged by user generation by PT1.016S
+2019-05-18T16:32:20,990Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 2671077540764462672
+2019-05-18T16:32:20,991Z INFO  {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:21,226Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed -3500614978637125381
+2019-05-18T16:32:21,226Z INFO  {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:21,850Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed -4816872006481583618
+2019-05-18T16:32:21,851Z INFO  {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:22,475Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed -5671795673574091253
+2019-05-18T16:32:22,475Z INFO  {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:23,100Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 7987185974177307502
+2019-05-18T16:32:23,100Z INFO  {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ExploratoryVirtualUser] Applying load...
+2019-05-18T16:32:23,878Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ExploratoryVirtualUser] Circling through [ViewBoardAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, EditIssueAction, EditIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, BrowseProjectsAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ProjectSummaryAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, ViewBoardAction, ProjectSummaryAction, ViewBoardAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, AddCommentAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewBacklogAction, BrowseProjectsAction, SearchJqlAction, ViewBoardAction, CreateIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewDashboardAction, SearchJqlAction, PatientBrowseBoardsAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, BrowseProjectsAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction]
+2019-05-18T16:32:23,882Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:32:25,035Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ExploratoryVirtualUser] Circling through [ViewDashboardAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewBoardAction, ViewIssueAction, BrowseProjectsAction, EditIssueAction, CreateIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, AddCommentAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewBacklogAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ProjectSummaryAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ProjectSummaryAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewIssueAction, EditIssueAction, CreateIssueAction, ProjectSummaryAction, ViewIssueAction, ViewBacklogAction, ProjectSummaryAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, ViewBacklogAction, PatientBrowseBoardsAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, EditIssueAction, ViewIssueAction, BrowseProjectsAction, EditIssueAction, ViewBoardAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewBacklogAction, EditIssueAction]
+2019-05-18T16:32:26,304Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ExploratoryVirtualUser] Circling through [ProjectSummaryAction, EditIssueAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, AddCommentAction, ViewIssueAction, SearchJqlAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, BrowseProjectsAction, ViewBacklogAction, SearchJqlAction, PatientBrowseBoardsAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewBacklogAction, ViewBacklogAction, BrowseProjectsAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, ViewBacklogAction, ViewBoardAction, ViewDashboardAction, ProjectSummaryAction, CreateIssueAction, CreateIssueAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, PatientBrowseBoardsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewBoardAction, SearchJqlAction, ProjectSummaryAction, SearchJqlAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewBoardAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, BrowseProjectsAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBoardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, CreateIssueAction, SearchJqlAction, ViewDashboardAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction]
+2019-05-18T16:32:26,304Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ProjectSummaryAction] Skipping Project summary action. I have no knowledge of projects.
+2019-05-18T16:32:26,371Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ExploratoryVirtualUser] Circling through [ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, BrowseProjectsAction, ProjectSummaryAction, CreateIssueAction, CreateIssueAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewDashboardAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewDashboardAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, ProjectSummaryAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, PatientBrowseBoardsAction, ViewBacklogAction, ViewBoardAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, EditIssueAction, AddCommentAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, AddCommentAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewDashboardAction, ViewBoardAction, PatientBrowseBoardsAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, SearchJqlAction]
+2019-05-18T16:32:26,371Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:28,222Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ExploratoryVirtualUser] Circling through [ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, CreateIssueAction, CreateIssueAction, BrowseProjectsAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewDashboardAction, ViewBoardAction, ViewDashboardAction, ViewDashboardAction, EditIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, AddCommentAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ProjectSummaryAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewIssueAction, ViewBacklogAction, BrowseProjectsAction, ViewBacklogAction, ViewIssueAction, EditIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, SearchJqlAction, ViewBoardAction, CreateIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, SearchJqlAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, PatientBrowseBoardsAction, ProjectSummaryAction, ViewDashboardAction, EditIssueAction, ViewIssueAction, SearchJqlAction, ProjectSummaryAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction]
+2019-05-18T16:32:31,105Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [EditIssueAction] Cannot edit any issue, because I didn't see any editable issues
+2019-05-18T16:32:31,171Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:31,429Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ExploratoryVirtualUser] Circling through [ViewBoardAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, AddCommentAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewBoardAction, AddCommentAction, BrowseProjectsAction, CreateIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, BrowseProjectsAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, ViewBoardAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, SearchJqlAction, SearchJqlAction, PatientBrowseBoardsAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, EditIssueAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ProjectSummaryAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, SearchJqlAction, BrowseProjectsAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, CreateIssueAction, ViewBacklogAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, EditIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ProjectSummaryAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction]
+2019-05-18T16:32:31,430Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:32:31,983Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ExploratoryVirtualUser] Circling through [BrowseProjectsAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, AddCommentAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, PatientBrowseBoardsAction, ViewIssueAction, EditIssueAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, ProjectSummaryAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, ViewBacklogAction, PatientBrowseBoardsAction, SearchJqlAction, ViewIssueAction, EditIssueAction, EditIssueAction, BrowseProjectsAction, ViewIssueAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ProjectSummaryAction, CreateIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewBacklogAction, EditIssueAction, SearchJqlAction, ProjectSummaryAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, ViewDashboardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, AddCommentAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, ViewDashboardAction, ViewBacklogAction, ViewIssueAction, CreateIssueAction, ProjectSummaryAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction]
+2019-05-18T16:32:32,052Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ExploratoryVirtualUser] Circling through [ViewDashboardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewDashboardAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, BrowseProjectsAction, CreateIssueAction, CreateIssueAction, ViewBacklogAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, SearchJqlAction, ViewBacklogAction, EditIssueAction, SearchJqlAction, ViewBoardAction, ViewBacklogAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ProjectSummaryAction, EditIssueAction, SearchJqlAction, ViewIssueAction, ProjectSummaryAction, ViewDashboardAction, AddCommentAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, PatientBrowseBoardsAction, SearchJqlAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, CreateIssueAction, ViewBoardAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, CreateIssueAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, PatientBrowseBoardsAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, EditIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewBacklogAction, ProjectSummaryAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction]
+2019-05-18T16:32:33,965Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ExploratoryVirtualUser] Circling through [ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, BrowseProjectsAction, SearchJqlAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, EditIssueAction, BrowseProjectsAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewBacklogAction, ViewBoardAction, ViewIssueAction, AddCommentAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, AddCommentAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, ViewBacklogAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, ViewBoardAction, ViewIssueAction, ViewDashboardAction, ProjectSummaryAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, ViewIssueAction, PatientBrowseBoardsAction, ProjectSummaryAction, BrowseProjectsAction, ViewBoardAction, ViewIssueAction, EditIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, PatientBrowseBoardsAction, SearchJqlAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewDashboardAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ProjectSummaryAction, ViewDashboardAction, ViewIssueAction, EditIssueAction, ViewBacklogAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction]
+2019-05-18T16:32:34,028Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ExploratoryVirtualUser] Circling through [EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewBoardAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewDashboardAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, SearchJqlAction, ViewDashboardAction, ViewBoardAction, CreateIssueAction, ViewDashboardAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBoardAction, BrowseProjectsAction, PatientBrowseBoardsAction, ProjectSummaryAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, AddCommentAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, CreateIssueAction, CreateIssueAction, SearchJqlAction, ViewBacklogAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, ProjectSummaryAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewBoardAction, ProjectSummaryAction, AddCommentAction, EditIssueAction, SearchJqlAction, BrowseProjectsAction, EditIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewBoardAction, ViewDashboardAction, ProjectSummaryAction, ViewIssueAction, SearchJqlAction, EditIssueAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, SearchJqlAction, BrowseProjectsAction]
+2019-05-18T16:32:34,028Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [EditIssueAction] Cannot edit any issue, because I didn't see any editable issues
+2019-05-18T16:32:34,089Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ExploratoryVirtualUser] Circling through [ViewIssueAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, ViewBoardAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewIssueAction, BrowseProjectsAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, ViewBacklogAction, ProjectSummaryAction, EditIssueAction, ViewBoardAction, AddCommentAction, ViewBoardAction, PatientBrowseBoardsAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, CreateIssueAction, ViewIssueAction, ViewDashboardAction, ViewDashboardAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, CreateIssueAction, SearchJqlAction, ViewIssueAction, BrowseProjectsAction, ViewBacklogAction, ViewBacklogAction, SearchJqlAction, SearchJqlAction, BrowseProjectsAction, EditIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, SearchJqlAction, ViewBoardAction, ViewIssueAction, PatientBrowseBoardsAction, ViewDashboardAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, EditIssueAction, ViewIssueAction, SearchJqlAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, BrowseProjectsAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, EditIssueAction, ViewIssueAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewDashboardAction, AddCommentAction]
+2019-05-18T16:32:34,089Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:35,904Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [EditIssueAction] Cannot edit any issue, because I didn't see any editable issues
+2019-05-18T16:32:36,230Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:36,409Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:36,852Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:32:38,765Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:38,828Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:39,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ExploratoryVirtualUser] Circling through [ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, ViewBoardAction, BrowseProjectsAction, ViewIssueAction, AddCommentAction, BrowseProjectsAction, ViewBacklogAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewBoardAction, SearchJqlAction, EditIssueAction, ViewIssueAction, ViewBacklogAction, ViewDashboardAction, AddCommentAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, CreateIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, SearchJqlAction, EditIssueAction, SearchJqlAction, EditIssueAction, BrowseProjectsAction, ViewIssueAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, EditIssueAction, SearchJqlAction, SearchJqlAction, ViewBacklogAction, ViewDashboardAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, ViewBoardAction, ViewIssueAction, ViewBacklogAction, ProjectSummaryAction, CreateIssueAction, ViewIssueAction, EditIssueAction, ProjectSummaryAction, ViewIssueAction, ViewIssueAction, BrowseProjectsAction, ViewBoardAction, ViewIssueAction, CreateIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewDashboardAction, PatientBrowseBoardsAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewIssueAction, ViewBoardAction, ViewBoardAction, SearchJqlAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, ProjectSummaryAction, ViewIssueAction, CreateIssueAction, ViewIssueAction, ViewBacklogAction, SearchJqlAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ProjectSummaryAction, SearchJqlAction, CreateIssueAction, ViewIssueAction, ViewDashboardAction, ViewIssueAction, ViewIssueAction, PatientBrowseBoardsAction, ViewIssueAction, SearchJqlAction, ViewBacklogAction, ViewIssueAction, ViewIssueAction, SearchJqlAction, SearchJqlAction, ViewIssueAction, ViewIssueAction, ViewBacklogAction, ViewIssueAction]
+2019-05-18T16:32:39,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:40,704Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:41,031Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:32:41,652Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:43,565Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:43,629Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:43,924Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:44,608Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:45,504Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:45,830Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:46,452Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:48,365Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:32:48,428Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:49,408Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:50,305Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:50,631Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AddCommentAction] Cannot add a comment, because I didn't see any issues yet
+2019-05-18T16:32:53,228Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:32:54,208Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:32:55,104Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:55,430Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:56,053Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:59,009Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:32:59,904Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:33:00,852Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:02,765Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:02,828Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:03,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:05,653Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AddCommentAction] Cannot add a comment, because I didn't see any issues yet
+2019-05-18T16:33:07,566Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:07,628Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:09,504Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:12,365Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:12,428Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:13,408Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:14,304Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:15,252Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:17,165Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:17,228Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:19,105Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:21,966Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:22,028Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:23,904Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:24,852Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:25,381Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [AdaptiveJqlMemory] Rendered a new jql query: <<project = NLKS order by status>>
+2019-05-18T16:33:26,617Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = xgsqbwfpe order by project>>
+2019-05-18T16:33:26,765Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:26,829Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:27,809Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:28,164Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [AdaptiveJqlMemory] Rendered a new jql query: <<project = ANIOS order by status>>
+2019-05-18T16:33:28,164Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:28,164Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:28,772Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BGFFIA order by status>>
+2019-05-18T16:33:28,772Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:29,401Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = iebyxzczp order by project>>
+2019-05-18T16:33:29,562Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was doybxsfrp order by description>>
+2019-05-18T16:33:30,540Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was dvcjvdgns order by description>>
+2019-05-18T16:33:30,724Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CGAIEA and assignee = dmxecdpot order by reporter>>
+2019-05-18T16:33:31,566Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:31,628Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:31,845Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CGILSA and assignee = dpscdxzgp order by reporter>>
+2019-05-18T16:33:33,353Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BYSHI order by status>>
+2019-05-18T16:33:33,504Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:36,071Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:36,429Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:38,629Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AASKSA order by status>>
+2019-05-18T16:33:40,141Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CCAFR order by status>>
+2019-05-18T16:33:40,168Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AMSAI order by status>>
+2019-05-18T16:33:40,919Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197220
+2019-05-18T16:33:41,224Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = sqxumrjtj order by project>>
+2019-05-18T16:33:41,265Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = xrpjgmuae order by project>>
+2019-05-18T16:33:42,367Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was jhducdxpd order by description>>
+2019-05-18T16:33:43,105Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:43,370Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BBEHIA and assignee = sqxumrjtj order by reporter>>
+2019-05-18T16:33:44,366Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "summary" order by key>>
+2019-05-18T16:33:44,366Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:33:44,539Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:45,027Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:45,028Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AddCommentAction] Cannot add a comment, because I didn't see any issues yet
+2019-05-18T16:33:46,028Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:46,064Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was cuhxaewcx order by description>>
+2019-05-18T16:33:46,441Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "headings" order by key>>
+2019-05-18T16:33:49,509Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:50,440Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197230
+2019-05-18T16:33:50,829Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:51,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:52,066Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BYSHI and assignee = sgquoftoc order by reporter>>
+2019-05-18T16:33:53,150Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:33:53,717Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:55,628Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:56,010Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197236
+2019-05-18T16:33:56,677Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "saucy" order by key>>
+2019-05-18T16:33:56,677Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:33:56,820Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197236
+2019-05-18T16:33:57,850Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was jpt-85aafd7a-bf8a-44c2-920a-d5541cb9123e order by description>>
+2019-05-18T16:33:58,453Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:33:59,746Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:00,429Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:34:00,829Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CCRMI order by status>>
+2019-05-18T16:34:01,961Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = vemixjtyv order by project>>
+2019-05-18T16:34:03,252Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:05,745Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was hnavoudka order by description>>
+2019-05-18T16:34:05,745Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:05,943Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197245
+2019-05-18T16:34:06,208Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:08,053Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewIssueAction] Skipping View Issue action. I have no knowledge of issue keys.
+2019-05-18T16:34:08,607Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:34:10,541Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "summary" order by key>>
+2019-05-18T16:34:10,542Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:11,008Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:12,852Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:12,935Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:34:13,483Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AISTS and assignee = phizezmdl order by reporter>>
+2019-05-18T16:34:17,652Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:22,044Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:22,392Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:22,393Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:23,488Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197263
+2019-05-18T16:34:23,825Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = gekavvjdx order by project>>
+2019-05-18T16:34:23,826Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:25,049Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was xpyslntyv order by description>>
+2019-05-18T16:34:26,093Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [AdaptiveJqlMemory] Rendered a new jql query: <<project = SBEU and assignee = rahyryjga order by reporter>>
+2019-05-18T16:34:26,093Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ProjectSummaryAction] Skipping Project summary action. I have no knowledge of projects.
+2019-05-18T16:34:26,573Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197266
+2019-05-18T16:34:26,609Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "summary" order by key>>
+2019-05-18T16:34:27,252Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:27,313Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "motoring" order by key>>
+2019-05-18T16:34:27,988Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:29,317Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "blistering" order by key>>
+2019-05-18T16:34:29,317Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ProjectSummaryAction] Skipping Project summary action. I have no knowledge of projects.
+2019-05-18T16:34:30,208Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:31,294Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197271
+2019-05-18T16:34:31,994Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [EditIssueAction] Cannot edit any issue, because I didn't see any editable issues
+2019-05-18T16:34:32,052Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [EditIssueAction] Cannot edit any issue, because I didn't see any editable issues
+2019-05-18T16:34:34,894Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197274
+2019-05-18T16:34:35,529Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197275
+2019-05-18T16:34:36,692Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AGDIIA order by status>>
+2019-05-18T16:34:36,879Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:34:36,880Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:34:40,046Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:40,046Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:43,320Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197283
+2019-05-18T16:34:45,701Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = hspkjalls order by project>>
+2019-05-18T16:34:45,831Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:46,603Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = ojeeojili order by project>>
+2019-05-18T16:34:46,603Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:46,603Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:47,741Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [AdaptiveJqlMemory] Rendered a new jql query: <<project = NLKS order by status>>
+2019-05-18T16:34:47,879Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:48,774Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = ghumwuhwz order by project>>
+2019-05-18T16:34:49,725Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was brmhbwkzm order by description>>
+2019-05-18T16:34:49,725Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:50,268Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was jpt-77d6a70f-12ad-4a72-8029-4c74dfde4663 order by description>>
+2019-05-18T16:34:50,268Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:34:50,376Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AASKSA and assignee = fhkestgxb order by reporter>>
+2019-05-18T16:34:50,648Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BCTIA and assignee = xrpjgmuae order by reporter>>
+2019-05-18T16:34:51,169Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = ojeeojili order by project>>
+2019-05-18T16:34:51,532Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was twtalnjvj order by description>>
+2019-05-18T16:34:51,679Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "sorcerer" order by key>>
+2019-05-18T16:34:52,183Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [AdaptiveJqlMemory] Rendered a new jql query: <<project = GAMY and assignee = qwbrdwyxk order by reporter>>
+2019-05-18T16:34:52,561Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AGDIIA and assignee = bffdoonll order by reporter>>
+2019-05-18T16:34:53,625Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "bushelling" order by key>>
+2019-05-18T16:34:55,152Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CFNUSA order by status>>
+2019-05-18T16:34:55,430Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:56,185Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = sgquoftoc order by project>>
+2019-05-18T16:34:56,294Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "summary" order by key>>
+2019-05-18T16:34:57,124Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:34:57,336Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was isbdnlfbj order by description>>
+2019-05-18T16:34:58,967Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197298
+2019-05-18T16:35:02,290Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:03,804Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [AdaptiveJqlMemory] Rendered a new jql query: <<project = BELIIA and assignee = hqkbggnui order by reporter>>
+2019-05-18T16:35:04,554Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197304
+2019-05-18T16:35:05,175Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "fiercest" order by key>>
+2019-05-18T16:35:05,175Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:06,243Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:06,727Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:07,566Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:08,427Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:09,096Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197309
+2019-05-18T16:35:10,349Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197310
+2019-05-18T16:35:15,433Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ProjectSummaryAction] Skipping Project summary action. I have no knowledge of projects.
+2019-05-18T16:35:19,112Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197319
+2019-05-18T16:35:20,071Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:23,123Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:30,589Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:30,590Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:30,590Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:32,003Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AdaptiveJqlMemory] Rendered a new jql query: <<project = AAATAA order by status>>
+2019-05-18T16:35:32,003Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:32,998Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AdaptiveJqlMemory] Rendered a new jql query: <<reporter was jpt-d6b0d663-5b4d-4cc9-964d-fa5471d90851 order by description>>
+2019-05-18T16:35:36,332Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197336
+2019-05-18T16:35:36,365Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:41,166Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:43,463Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:35:43,555Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AdaptiveJqlMemory] Rendered a new jql query: <<assignee = iwrinbmev order by project>>
+2019-05-18T16:35:48,053Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AdaptiveJqlMemory] Rendered a new jql query: <<text ~ "summary" order by key>>
+2019-05-18T16:35:48,645Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197348
+2019-05-18T16:35:51,333Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:51,435Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:35:54,379Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197354
+2019-05-18T16:35:56,244Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:57,715Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:58,505Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:35:59,531Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [AdaptiveJqlMemory] Rendered a new jql query: <<project = CCENI and assignee = jscuspibd order by reporter>>
+2019-05-18T16:36:01,089Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197361
+2019-05-18T16:36:01,131Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:36:01,131Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:36:03,487Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197363
+2019-05-18T16:36:05,440Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197365
+2019-05-18T16:36:05,836Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:36:10,029Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:36:12,976Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197372
+2019-05-18T16:36:13,686Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197373
+2019-05-18T16:36:16,610Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [CreateIssueAction] Skipping Create issue action. I have no knowledge of projects.
+2019-05-18T16:36:17,612Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:36:18,828Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197378
+2019-05-18T16:36:23,012Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:36:31,705Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:36:38,828Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:36:42,330Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197402
+2019-05-18T16:36:48,365Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:36:49,585Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197409
+2019-05-18T16:36:51,559Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197411
+2019-05-18T16:36:53,165Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:36:57,966Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:02,578Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197422
+2019-05-18T16:37:02,933Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197422
+2019-05-18T16:37:03,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:04,331Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197424
+2019-05-18T16:37:13,409Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:14,920Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197434
+2019-05-18T16:37:19,275Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:20,657Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:20,658Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:21,615Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197441
+2019-05-18T16:37:21,965Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:22,934Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:25,511Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:25,511Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:25,997Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197445
+2019-05-18T16:37:30,055Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:31,036Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:33,899Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:37:39,215Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197459
+2019-05-18T16:37:39,549Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197459
+2019-05-18T16:37:40,723Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197460
+2019-05-18T16:37:43,113Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197463
+2019-05-18T16:37:47,008Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:51,808Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:37:52,377Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197472
+2019-05-18T16:37:52,430Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197472
+2019-05-18T16:37:54,086Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197474
+2019-05-18T16:37:56,609Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:02,931Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:03,889Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:05,543Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197485
+2019-05-18T16:38:05,595Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:05,803Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197485
+2019-05-18T16:38:06,208Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:08,672Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:11,435Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197491
+2019-05-18T16:38:12,192Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197492
+2019-05-18T16:38:18,871Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197498
+2019-05-18T16:38:19,600Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197499
+2019-05-18T16:38:20,919Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197500
+2019-05-18T16:38:21,197Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:21,945Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:26,679Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197506
+2019-05-18T16:38:27,335Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197507
+2019-05-18T16:38:29,242Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197509
+2019-05-18T16:38:30,139Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197510
+2019-05-18T16:38:33,965Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:38:34,254Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:35,365Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:35,476Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197515
+2019-05-18T16:38:39,015Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197519
+2019-05-18T16:38:40,758Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197520
+2019-05-18T16:38:41,994Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197521
+2019-05-18T16:38:42,683Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197522
+2019-05-18T16:38:49,409Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:38:50,912Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197530
+2019-05-18T16:38:54,945Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197534
+2019-05-18T16:39:04,774Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197544
+2019-05-18T16:39:12,365Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:39:14,253Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197554
+2019-05-18T16:39:18,208Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:39:19,440Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197559
+2019-05-18T16:39:25,692Z ERROR {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [WebDriverDiagnostics] URL: http://jpt-a7080-loadbala-1wnkosb19kzsy-588422585.eu-west-1.elb.amazonaws.com/secure/RapidBoard.jspa?rapidView=631&view=planning, HTML dumped at diagnoses/1a324cd9-0a5e-4b04-a72d-bb44f15679ae/dump.html, screenshot saved to diagnoses/1a324cd9-0a5e-4b04-a72d-bb44f15679ae/screenshot.png
+java.lang.Exception: Action 'View Backlog' ERROR
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:132) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale) (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	... 12 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-10-0-0-131', ip: '10.0.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1067-aws', java.version: '1.8.0_212'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896) ~[virtual-users.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	... 12 more
+2019-05-18T16:39:25,702Z ERROR {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3906d143, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3906d143
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.lang.Exception: Action 'View Backlog' ERROR
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:132) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale) (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-10-0-0-131', ip: '10.0.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1067-aws', java.version: '1.8.0_212'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896) ~[virtual-users.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:39:26,600Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:39:29,454Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197569
+2019-05-18T16:39:29,888Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197569
+2019-05-18T16:39:36,039Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:39:36,359Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197576
+2019-05-18T16:39:37,607Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197577
+2019-05-18T16:39:38,730Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:39:41,327Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197581
+2019-05-18T16:39:42,508Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197582
+2019-05-18T16:39:43,541Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197583
+2019-05-18T16:39:45,282Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197585
+2019-05-18T16:39:56,078Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:40:07,686Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:40:15,243Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197615
+2019-05-18T16:40:16,728Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197616
+2019-05-18T16:40:17,462Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197617
+2019-05-18T16:40:33,276Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197633
+2019-05-18T16:40:41,771Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197641
+2019-05-18T16:40:48,491Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197648
+2019-05-18T16:40:49,964Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197649
+2019-05-18T16:40:57,151Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197657
+2019-05-18T16:40:57,642Z DEBUG {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [SeededRandom] Using seed 1558197657
+2019-05-18T16:41:01,760Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558197661
+2019-05-18T16:41:02,880Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:41:07,978Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197667
+2019-05-18T16:41:09,860Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ViewBacklogAction] Skipping View Backlog. I have no knowledge of Boards.
+2019-05-18T16:41:12,780Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ViewBoardAction] Skipping View Board. I have no knowledge of Boards.
+2019-05-18T16:41:17,991Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197677
+2019-05-18T16:41:40,824Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197700
+2019-05-18T16:41:55,418Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197715
+2019-05-18T16:41:55,598Z DEBUG {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [SeededRandom] Using seed 1558197715
+2019-05-18T16:41:57,759Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197717
+2019-05-18T16:41:59,756Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197719
+2019-05-18T16:42:00,686Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197720
+2019-05-18T16:42:08,452Z DEBUG {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [SeededRandom] Using seed 1558197728
+2019-05-18T16:42:15,423Z DEBUG {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [SeededRandom] Using seed 1558197735
+2019-05-18T16:42:23,497Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558197743
+2019-05-18T16:42:43,812Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197763
+2019-05-18T16:42:45,390Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197765
+2019-05-18T16:42:53,612Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197773
+2019-05-18T16:43:17,578Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197797
+2019-05-18T16:43:30,603Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197810
+2019-05-18T16:43:34,126Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197814
+2019-05-18T16:43:41,783Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197821
+2019-05-18T16:43:42,718Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197822
+2019-05-18T16:43:50,042Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197830
+2019-05-18T16:43:53,530Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197833
+2019-05-18T16:43:58,846Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197838
+2019-05-18T16:44:04,053Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558197844
+2019-05-18T16:44:05,501Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197845
+2019-05-18T16:44:41,863Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197881
+2019-05-18T16:44:49,171Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197889
+2019-05-18T16:44:54,248Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197894
+2019-05-18T16:45:10,942Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197910
+2019-05-18T16:45:19,165Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197919
+2019-05-18T16:45:22,671Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197922
+2019-05-18T16:45:26,532Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197926
+2019-05-18T16:45:34,185Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197934
+2019-05-18T16:45:34,378Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558197934
+2019-05-18T16:45:36,296Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558197936
+2019-05-18T16:45:38,524Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197938
+2019-05-18T16:45:45,438Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197945
+2019-05-18T16:45:53,952Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558197953
+2019-05-18T16:46:17,901Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558197977
+2019-05-18T16:46:25,277Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558197985
+2019-05-18T16:46:48,134Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558198008
+2019-05-18T16:46:49,593Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198009
+2019-05-18T16:47:01,060Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198021
+2019-05-18T16:47:07,033Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198027
+2019-05-18T16:47:10,379Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198030
+2019-05-18T16:47:10,851Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198030
+2019-05-18T16:47:13,851Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198033
+2019-05-18T16:47:14,354Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198034
+2019-05-18T16:47:16,788Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558198036
+2019-05-18T16:47:20,570Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558198040
+2019-05-18T16:47:25,576Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198045
+2019-05-18T16:47:34,731Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198054
+2019-05-18T16:47:38,741Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198058
+2019-05-18T16:47:40,510Z ERROR {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [WebDriverDiagnostics] URL: http://jpt-a7080-loadbala-1wnkosb19kzsy-588422585.eu-west-1.elb.amazonaws.com/secure/RapidBoard.jspa?rapidView=631&view=planning, HTML dumped at diagnoses/b867b22a-03b1-4a89-a945-3190e3703423/dump.html, screenshot saved to diagnoses/b867b22a-03b1-4a89-a945-3190e3703423/screenshot.png
+java.lang.Exception: Action 'View Backlog' ERROR
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:132) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale) (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	... 12 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-10-0-0-131', ip: '10.0.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1067-aws', java.version: '1.8.0_212'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896) ~[virtual-users.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	... 12 more
+2019-05-18T16:47:40,512Z INFO  {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [DiagnosisPatience] Lost patience after waiting PT37.89S for diagnosis, no more diagnoses will be made
+2019-05-18T16:47:40,512Z ERROR {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@726b5b2b, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@726b5b2b
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.lang.Exception: Action 'View Backlog' ERROR
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:132) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale) (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-10-0-0-131', ip: '10.0.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1067-aws', java.version: '1.8.0_212'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896) ~[virtual-users.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:48:09,699Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558198089
+2019-05-18T16:48:16,679Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198096
+2019-05-18T16:48:20,439Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198100
+2019-05-18T16:48:20,992Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198100
+2019-05-18T16:48:24,447Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558198104
+2019-05-18T16:48:27,138Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198107
+2019-05-18T16:48:27,392Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198107
+2019-05-18T16:48:31,326Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558198111
+2019-05-18T16:48:36,927Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198116
+2019-05-18T16:48:37,788Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198117
+2019-05-18T16:48:42,815Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198122
+2019-05-18T16:48:43,342Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558198123
+2019-05-18T16:48:56,567Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198136
+2019-05-18T16:48:59,232Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198139
+2019-05-18T16:49:04,367Z DEBUG {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [SeededRandom] Using seed 1558198144
+2019-05-18T16:49:47,901Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198187
+2019-05-18T16:50:01,573Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558198201
+2019-05-18T16:50:02,455Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198202
+2019-05-18T16:50:09,705Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198209
+2019-05-18T16:50:27,432Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198227
+2019-05-18T16:50:39,013Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198239
+2019-05-18T16:50:39,048Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198239
+2019-05-18T16:50:40,636Z DEBUG {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [SeededRandom] Using seed 1558198240
+2019-05-18T16:50:44,482Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198244
+2019-05-18T16:50:47,351Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198247
+2019-05-18T16:50:52,982Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198252
+2019-05-18T16:51:09,372Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198269
+2019-05-18T16:51:26,232Z DEBUG {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [SeededRandom] Using seed 1558198286
+2019-05-18T16:51:48,982Z ERROR {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3dc54714, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3dc54714
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.lang.Exception: Action 'View Backlog' ERROR
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:132) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale) (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #ghx-backlog[data-rendered]:not(.browser-metrics-stale)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-10-0-0-131', ip: '10.0.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1067-aws', java.version: '1.8.0_212'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896) ~[virtual-users.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180) ~[virtual-users.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait(WebDriverExtension.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.page.WebDriverUtils.wait$default(WebDriverExtension.kt:19) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.page.ViewBacklogPage.waitForBacklog(ViewBacklogPage.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:60) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction$run$1.invoke(ViewBacklogAction.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:80) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter$measure$2.invoke(ActionMeter.kt:25) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:102) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:51:54,047Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198314
+2019-05-18T16:51:59,135Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198319
+2019-05-18T16:52:14,307Z DEBUG {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [SeededRandom] Using seed 1558198334
+2019-05-18T16:52:23,842Z DEBUG {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [SeededRandom] Using seed 1558198343
+2019-05-18T16:52:26,525Z DEBUG {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [SeededRandom] Using seed 1558198346
+2019-05-18T16:52:27,336Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198347
+2019-05-18T16:52:31,854Z DEBUG {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [SeededRandom] Using seed 1558198351
+2019-05-18T16:52:49,195Z DEBUG {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [SeededRandom] Using seed 1558198369
+2019-05-18T16:52:53,098Z INFO  {} [] [LoadTest] Closing segments
+2019-05-18T16:52:53,193Z ERROR {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction@4f41d219, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction@4f41d219
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:57) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction.run(BrowseBoardsAction.kt:29) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:53,193Z INFO  {} [applying load #61eb6dbf-adf1-4bde-a398-64b287104987] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:53,202Z ERROR {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction@5860709f, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction@5860709f
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:57) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.hardware.vu.PatientBrowseBoardsAction.run(BrowseBoardsAction.kt:29) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:53,202Z INFO  {} [applying load #884223de-931e-4099-8d56-688d48386ec5] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:53,224Z ERROR {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3906d143, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@3906d143
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:53,225Z INFO  {} [applying load #39d5b1e9-4fc8-48bf-afa4-4100cb218574] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:53,228Z INFO  {} [applying load #be3b8bd2-03df-4e71-9961-d243f009ae64] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:53,254Z ERROR {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@653bfe11, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@653bfe11
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:53,255Z INFO  {} [applying load #83b871f0-4fc2-4d28-a452-6d195e5d8e1b] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:53,269Z ERROR {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jiraactions.api.action.ViewDashboardAction@2a63616c, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jiraactions.api.action.ViewDashboardAction@2a63616c
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:57) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.action.ViewDashboardAction.run(ViewDashboardAction.kt:12) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:53,269Z INFO  {} [applying load #1347c169-830a-40ab-b7cf-0106c25a173c] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:54,852Z ERROR {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@22023eac, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@22023eac
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:54,853Z INFO  {} [applying load #2fc8ec91-b5a0-45a7-bfe9-789e58795dc2] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:55,947Z ERROR {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@44162880, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@44162880
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction.run(SearchJqlAction.kt:21) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:55,948Z INFO  {} [applying load #78b6131f-19de-4328-b72c-47b7515bffc0] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:56,052Z INFO  {} [applying load #b322d058-b988-4623-8d77-031fd568924a] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:52:56,077Z ERROR {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@25fd7af2, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction@25fd7af2
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jirasoftwareactions.api.actions.ViewBacklogAction.run(ViewBacklogAction.kt:56) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:52:56,078Z INFO  {} [applying load #f62089ab-f951-4ed1-b129-b2d6d98056d0] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:53:13,701Z ERROR {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@752a40f, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@752a40f
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction.run(SearchJqlAction.kt:21) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:53:13,702Z INFO  {} [applying load #0955be01-514b-4a1e-bebb-552ad56a9f3f] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:53:15,920Z INFO  {} [] [LoadTest] Segments closed
+2019-05-18T16:53:15,924Z ERROR {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ExploratoryVirtualUser] Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@6cec7707, but we keep running
+java.lang.Exception: Failed to run com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction@6cec7707
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:82) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.applyLoad(ExploratoryVirtualUser.kt:56) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.applyLoad(LoadTest.kt:164) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest.access$applyLoad(LoadTest.kt:36) [virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.LoadTest$applyLoad$$inlined$forEach$lambda$1.run(LoadTest.kt:111) [virtual-users.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.io.IOException: Stream closed
+	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116) ~[?:1.8.0_212]
+	at java.io.BufferedWriter.write(BufferedWriter.java:221) ~[?:1.8.0_212]
+	at java.io.Writer.write(Writer.java:157) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:227) ~[?:1.8.0_212]
+	at java.io.Writer.append(Writer.java:50) ~[?:1.8.0_212]
+	at com.atlassian.performance.tools.jiraactions.api.measure.output.AppendableActionMetricOutput.write(AppendableActionMetricOutput.kt:15) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.record(ActionMeter.kt:122) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.measure.ActionMeter.measure(ActionMeter.kt:79) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.jiraactions.api.action.SearchJqlAction.run(SearchJqlAction.kt:21) ~[virtual-users.jar:?]
+	at com.atlassian.performance.tools.virtualusers.ExploratoryVirtualUser.runWithDiagnostics(ExploratoryVirtualUser.kt:79) ~[virtual-users.jar:?]
+	... 9 more
+2019-05-18T16:53:15,924Z INFO  {} [applying load #39c004cb-36ea-47df-a21b-097bad0bfa99] [ExploratoryVirtualUser] Done applying load
+2019-05-18T16:53:15,927Z DEBUG {} [] [LoadTest] Dumped node's counts to test-results/nodes.csv

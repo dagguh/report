@@ -1,0 +1,1117 @@
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="1387" x-info="http://www.rsyslog.com"] start
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd: rsyslogd's groupid changed to 108
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd: rsyslogd's userid changed to 104
+Jul 22 11:54:28 ip-10-0-0-53 loadkeys[648]: Loading /etc/console-setup/cached.kmap.gz
+Jul 22 11:54:28 ip-10-0-0-53 systemd-modules-load[656]: Inserted module 'iscsi_tcp'
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Uncomplicated firewall.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Remount Root and Kernel File Systems.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Create list of required static device nodes for the current kernel.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Set console keymap.
+Jul 22 11:54:28 ip-10-0-0-53 systemd-modules-load[656]: Inserted module 'ib_iser'
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Load Kernel Modules.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Nameserver information manager.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started LVM2 metadata daemon.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Mounting FUSE Control File System...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Apply Kernel Variables...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Create Static Device Nodes in /dev...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Load/Save Random Seed...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting udev Coldplug all Devices...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Flush Journal to Persistent Storage...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Mounted FUSE Control File System.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Apply Kernel Variables.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Create Static Device Nodes in /dev.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Load/Save Random Seed.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Flush Journal to Persistent Storage.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting udev Kernel Device Manager...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started udev Kernel Device Manager.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started udev Coldplug all Devices.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Found device /dev/ttyS0.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Local File Systems (Pre).
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Local File Systems.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Set console font and keymap...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Create Volatile Files and Directories...
+Jul 22 11:54:28 ip-10-0-0-53 systemd-tmpfiles[914]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting LSB: AppArmor initialization...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Commit a transient machine-id on disk...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Create Volatile Files and Directories.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Commit a transient machine-id on disk.
+Jul 22 11:54:28 ip-10-0-0-53 apparmor[940]:  * Starting AppArmor profiles
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Network Time Synchronization...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jul 22 11:54:28 ip-10-0-0-53 apparmor[940]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Network Time Synchronization.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Set console font and keymap.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Created slice system-getty.slice.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target System Time Synchronized.
+Jul 22 11:54:28 ip-10-0-0-53 apparmor[940]:    ...done.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started LSB: AppArmor initialization.
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: Internet Systems Consortium DHCP Client 4.3.3
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: Copyright 2004-2015 Internet Systems Consortium.
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: All rights reserved.
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: For info, please visit https://www.isc.org/software/dhcp/
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: 
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: Listening on LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: Sending on   LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: Sending on   Socket/fallback
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3 (xid=0xda0de939)
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: DHCPREQUEST of 10.0.0.53 on ens3 to 255.255.255.255 port 67 (xid=0x39e90dda)
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: DHCPOFFER of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: DHCPACK of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1069]: bound to 10.0.0.53 -- renewal in 1403 seconds.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[948]: Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'init-local' at Mon, 22 Jul 2019 11:54:26 +0000. Up 6.76 seconds.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Initial cloud-init job (pre-networking).
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Network (Pre).
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Raise network interfaces...
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: Internet Systems Consortium DHCP Client 4.3.3
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: Internet Systems Consortium DHCP Client 4.3.3
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: Copyright 2004-2015 Internet Systems Consortium.
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: All rights reserved.
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: For info, please visit https://www.isc.org/software/dhcp/
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: Copyright 2004-2015 Internet Systems Consortium.
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: All rights reserved.
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: For info, please visit https://www.isc.org/software/dhcp/
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: 
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: Listening on LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: Listening on LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: Sending on   LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: Sending on   Socket/fallback
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3 (xid=0x15d0f10a)
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: Sending on   LPF/ens3/02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: DHCPREQUEST of 10.0.0.53 on ens3 to 255.255.255.255 port 67 (xid=0xaf1d015)
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: DHCPOFFER of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: DHCPACK of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: Sending on   Socket/fallback
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3 (xid=0x15d0f10a)
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: DHCPREQUEST of 10.0.0.53 on ens3 to 255.255.255.255 port 67 (xid=0xaf1d015)
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: DHCPOFFER of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: DHCPACK of 10.0.0.53 from 10.0.0.1
+Jul 22 11:54:28 ip-10-0-0-53 dhclient[1180]: bound to 10.0.0.53 -- renewal in 1482 seconds.
+Jul 22 11:54:28 ip-10-0-0-53 ifup[1094]: bound to 10.0.0.53 -- renewal in 1482 seconds.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Raise network interfaces.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Network.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'init' at Mon, 22 Jul 2019 11:54:27 +0000. Up 7.87 seconds.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: | Device |  Up  |          Address          |      Mask     | Scope  |     Hw-Address    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |  ens3  | True |         10.0.0.53         | 255.255.255.0 | global | 02:a4:61:0b:0a:de |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |  ens3  | True | fe80::a4:61ff:fe0b:ade/64 |       .       |  link  | 02:a4:61:0b:0a:de |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   lo   | True |         127.0.0.1         |   255.0.0.0   |  host  |         .         |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   lo   | True |          ::1/128          |       .       |  host  |         .         |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+----------+---------------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: | Route | Destination | Gateway  |    Genmask    | Interface | Flags |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+----------+---------------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |    0.0.0.0    |    ens3   |   UG  |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   1   |   10.0.0.0  | 0.0.0.0  | 255.255.255.0 |    ens3   |   U   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+----------+---------------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+---------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+---------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   0   |  fe80::/64  |    ::   |    ens3   |   U   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: |   3   |   ff00::/8  |    ::   |    ens3   |   U   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: ci-info: +-------+-------------+---------+-----------+-------+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Generating public/private rsa key pair.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key fingerprint is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: SHA256:WdhX4lS6SoKqzey8UpXULpBHNDWQn6R+aHb+TLSGzYc root@ip-10-0-0-53
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key's randomart image is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +---[RSA 2048]----+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     +==o   o.o  |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |    o +.o+ o +   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     + *..o +    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |      =.+o . .   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     o.oS o .    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |    ..= oB +     |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |   ..o +. E .    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  .*    .+ .     |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  .oB.   .o      |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +----[SHA256]-----+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Generating public/private dsa key pair.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key fingerprint is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: SHA256:cEJUQirfKZzLrPDk3qBmdQy8/Qzg5E9jL+6W23bCCZ0 root@ip-10-0-0-53
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key's randomart image is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +---[DSA 1024]----+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     o=..        |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     o .         |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  o . o .        |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |   O o =         |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  + @ + S        |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |   B % E         |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |. + O X .        |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: | O + =.O .       |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |+.= =++.o        |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +----[SHA256]-----+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Generating public/private ecdsa key pair.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key fingerprint is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: SHA256:T5p+rTf2czBfgQ7ZlCgyil4yd4bQyNQCq+lrjSf1jB0 root@ip-10-0-0-53
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key's randomart image is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +---[ECDSA 256]---+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: | .+.+       . .  |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  .= o o . . o   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: | .  + o o . + .  |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |.. + = o   o o . |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |o . = o S . o   .|
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |.  o E   =   .o .|
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: | .+ = . o ..   +.|
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: | +.+ + .  . = . o|
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |..o     ...+ o.o |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +----[SHA256]-----+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Generating public/private ed25519 key pair.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key fingerprint is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: SHA256:1cmcSRwaIWp7GyBSpl8tGRSlts+Qv4ld2QvhfM4iCDM root@ip-10-0-0-53
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: The key's randomart image is:
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +--[ED25519 256]--+
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |    o.+oo ooo.   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |   +   * . B.+   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |  o . X . o B    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |   o = * .       |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |    . = S .      |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |    E  * = +     |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |     + .= * o    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |      .o.+.= .   |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: |      . +. .+    |
+Jul 22 11:54:28 ip-10-0-0-53 cloud-init[1291]: +----[SHA256]-----+
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Cloud-config availability.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Network is Online.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting iSCSI initiator daemon (iscsid)...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target System Initialization.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on ACPID Listen Socket.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on UUID daemon activation socket.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting LXD - unix socket.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Daily apt download activities.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started ACPI Events Check.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Paths.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Socket activation for snappy daemon.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Timers.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on LXD - unix socket.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Listening on Socket activation for snappy daemon.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Sockets.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Reached target Basic System.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting System Logging Service...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Accounts Service...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting LSB: MD monitoring daemon...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started D-Bus System Message Bus.
+Jul 22 11:54:28 ip-10-0-0-53 iscsid: iSCSI logger with pid=1399 started!
+Jul 22 11:54:28 ip-10-0-0-53 iscsid: iSCSI daemon with pid=1400 started!
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Initializing cgroup subsys cpu
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Linux version 4.4.0-1067-aws (buildd@lgw01-amd64-033) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ) #77-Ubuntu SMP Mon Aug 27 13:22:03 UTC 2018 (Ubuntu 4.4.0-1067.77-aws 4.4.140)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-1067-aws root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyS0 nvme.io_timeout=4294967295
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] KERNEL supported cpus:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Intel GenuineIntel
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   AMD AuthenticAMD
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Centaur CentaurHauls
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000efffffff] usable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fc000000-0x00000000ffffffff] reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x0000000f0fffffff] usable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] NX (Execute Disable) protection: active
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SMBIOS 2.7 present.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] DMI: Xen HVM domU, BIOS 4.2.amazon 08/24/2006
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Hypervisor detected: Xen
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Xen version 4.2.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Xen Platform PCI: I/O protocol version 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Netfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated NICs.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Blkfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated disks.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] You might have to change the root device
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] from /dev/hd[a-d] to /dev/xvd[a-d]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] in your root= kernel command line option
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] HVMOP_pagetable_dying not supported
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: last_pfn = 0xf10000 max_arch_pfn = 0x400000000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] MTRR default type: write-back
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] MTRR fixed ranges enabled:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   00000-9FFFF write-back
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   A0000-BFFFF write-combining
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   C0000-FFFFF write-back
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] MTRR variable ranges enabled:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   0 base 0000F0000000 mask 3FFFF8000000 uncachable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   1 base 0000F8000000 mask 3FFFFC000000 uncachable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   2 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   3 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   4 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   5 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   6 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   7 disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: last_pfn = 0xf0000 max_arch_pfn = 0x400000000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] found SMP MP-table at [mem 0x000fbc50-0x000fbc5f] mapped at [ffff8800000fbc50]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Base memory trampoline at [ffff880000096000] 96000 size 28672
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Using GB pages for direct mapping
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BRK [0x02201000, 0x02201fff] PGTABLE
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BRK [0x02202000, 0x02202fff] PGTABLE
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BRK [0x02203000, 0x02203fff] PGTABLE
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] BRK [0x02204000, 0x02204fff] PGTABLE
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] RAMDISK: [mem 0x367b2000-0x373d0fff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: RSDP 0x00000000000EA020 000024 (v02 Xen   )
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: XSDT 0x00000000FC017290 00006C (v01 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: FACP 0x00000000FC013680 0000F4 (v04 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: DSDT 0x00000000FC0021C0 011438 (v02 Xen    HVM      00000000 INTL 20090123)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: FACS 0x00000000FC002180 000040
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: FACS 0x00000000FC002180 000040
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: APIC 0x00000000FC013780 000460 (v02 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: SRAT 0x00000000FC013C60 0008A8 (v01 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: HPET 0x00000000FC014530 000038 (v01 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: WAET 0x00000000FC014570 000028 (v01 Xen    HVM      00000000 HVML 00000000)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: SSDT 0x00000000FC0145A0 000031 (v02 Xen    HVM      00000000 INTL 20090123)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: SSDT 0x00000000FC0145E0 000033 (v02 Xen    HVM      00000000 INTL 20090123)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: SSDT 0x00000000FC014620 000CB0 (v02 Xen    HVM      00000000 INTL 20090123)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: SSDT 0x00000000FC0152D0 001FB6 (v02 Xen    HVM      00000000 INTL 20090123)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x10 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x20 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x22 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x24 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x26 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x28 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2a -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2c -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2e -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x30 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x01 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x03 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x05 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x07 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x09 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0b -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0d -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x0f -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 0 -> APIC 0x11 -> Node 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x21 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x23 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x25 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x27 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x29 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2b -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2d -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x2f -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: PXM 1 -> APIC 0x31 -> Node 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: Node 0 PXM 0 [mem 0x00000000-0xefffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: Node 0 PXM 0 [mem 0x100000000-0x78fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SRAT: Node 1 PXM 1 [mem 0x790000000-0xf0fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] NUMA: Node 0 [mem 0x00000000-0xefffffff] + [mem 0x100000000-0x78fffffff] -> [mem 0x00000000-0x78fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x78fffb000-0x78fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] NODE_DATA(1) allocated [mem 0xf0fffa000-0xf0fffefff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Zone ranges:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x0000000f0fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Device   empty
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Movable zone start for each node
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Early memory node ranges
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000efffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000078fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   node   1: [mem 0x0000000790000000-0x0000000f0fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000078fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] On node 0 totalpages: 7864221
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA zone: 22 pages reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA zone: 3997 pages, LIFO batch:0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA32 zone: 15296 pages used for memmap
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   DMA32 zone: 978944 pages, LIFO batch:31
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Normal zone: 107520 pages used for memmap
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Normal zone: 6881280 pages, LIFO batch:31
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Initmem setup node 1 [mem 0x0000000790000000-0x0000000f0fffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] On node 1 totalpages: 7864320
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Normal zone: 122880 pages used for memmap
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000]   Normal zone: 7864320 pages, LIFO batch:31
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-47
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 low level)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: IRQ5 used by override.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: IRQ10 used by override.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: IRQ11 used by override.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] smpboot: Allowing 128 CPUs, 92 hotplug CPUs
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0xf0000000-0xfbffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfc000000-0xffffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] e820: [mem 0xf0000000-0xfbffffff] available for PCI devices
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Booting paravirtualized kernel on Xen HVM
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:128 nr_node_ids:2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PERCPU: Embedded 34 pages/cpu @ffff880770e00000 s99160 r8192 d31912 u262144
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: s99160 r8192 d31912 u262144 alloc=1*2097152
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 008 018 019 020 021 022 023 024 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 025 026 036 038 040 042 044 046 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 048 050 052 054 056 058 060 062 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 064 066 068 070 072 074 076 078 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 080 082 084 086 088 090 092 094 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 096 098 100 102 104 106 108 110 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [0] 112 114 116 118 120 122 124 126 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 009 010 011 012 013 014 015 016 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 017 027 028 029 030 031 032 033 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 034 035 037 039 041 043 045 047 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 049 051 053 055 057 059 061 063 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 065 067 069 071 073 075 077 079 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 081 083 085 087 089 091 093 095 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 097 099 101 103 105 107 109 111 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] pcpu-alloc: [1] 113 115 117 119 121 123 125 127 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] xen: PV spinlocks enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PV qspinlock hash table entries: 512 (order: 1, 8192 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Built 2 zonelists in Node order, mobility grouping on.  Total pages: 15482759
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Policy zone: Normal
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-1067-aws root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyS0 nvme.io_timeout=4294967295
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] log_buf_len individual max cpu contribution: 4096 bytes
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] log_buf_len total cpu_extra contributions: 520192 bytes
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] log_buf_len min size: 262144 bytes
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] log_buf_len: 1048576 bytes
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] early log buf free: 249740(95%)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Memory: 61815268K/62914164K available (8372K kernel code, 1281K rwdata, 3888K rodata, 1504K init, 1264K bss, 1098896K reserved, 0K cma-reserved)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=128, Nodes=2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Hierarchical RCU implementation.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=128.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=128
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] NR_IRQS:16640 nr_irqs:1856 16
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] xen:events: Using 2-level ABI
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] xen:events: Xen HVM callback vector for event delivery is enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Console: colour VGA+ 80x25
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] console [tty1] enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] console [ttyS0] enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] mempolicy: Enabling automatic NUMA balancing. Configure with numa_balancing= or the kernel.numa_balancing sysctl
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] hpet clockevent registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    0.000000] tsc: Detected 2900.078 MHz processor
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.323860] Calibrating delay loop (skipped), value calculated using timer frequency.. 5800.15 BogoMIPS (lpj=11600312)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.350507] pid_max: default: 131072 minimum: 1024
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.355562] ACPI: Core revision 20150930
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.370881] ACPI: 5 ACPI AML tables successfully acquired and loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.378879] Security Framework initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.383320] Yama: becoming mindful.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.387364] AppArmor: AppArmor initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.394888] Dentry cache hash table entries: 8388608 (order: 14, 67108864 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.412384] Inode-cache hash table entries: 4194304 (order: 13, 33554432 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.424346] Mount-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.431221] Mountpoint-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.439319] Initializing cgroup subsys io
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.443692] Initializing cgroup subsys memory
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.448268] Initializing cgroup subsys devices
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.452953] Initializing cgroup subsys freezer
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.457737] Initializing cgroup subsys net_cls
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.462569] Initializing cgroup subsys perf_event
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.467547] Initializing cgroup subsys net_prio
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.472357] Initializing cgroup subsys hugetlb
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.477131] Initializing cgroup subsys pids
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.482465] mce: CPU supports 2 MCE banks
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.486868] process: using mwait in idle threads
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.491789] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.497874] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.504542] Spectre V2 : Mitigation: Full generic retpoline
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.510252] Spectre V2 : Speculation control IBPB not-supported IBRS not-supported
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.517533] Speculative Store Bypass: Vulnerable
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.524888] Freeing SMP alternatives memory: 32K
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.534209] ftrace: allocating 31371 entries in 123 pages
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.575108] smpboot: APIC(0) Converting physical 0 to logical package 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.581722] smpboot: APIC(20) Converting physical 1 to logical package 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.588377] smpboot: Max logical packages: 15
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.593721] x2apic: IRQ remapping doesn't support X2APIC mode
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.600066] Switched APIC routing to physical flat.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.607502] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.613325] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.622673] Xen: using vcpuop timer interface
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.622678] installing Xen timer for CPU 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.627061] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.638257] cpu 0 spinlock event irq 53
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.642347] Performance Events: unsupported p6 CPU model 63 no PMU driver, software events only.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.653612] NMI watchdog: disabled (cpu0): hardware events not enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.659813] NMI watchdog: Shutting down hard lockup detector on all cpus
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.666244] installing Xen timer for CPU 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.670544] x86: Booting SMP configuration:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.674862] .... node  #0, CPUs:          #1cpu 1 spinlock event irq 59
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.684476] installing Xen timer for CPU 2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.688842]    #2cpu 2 spinlock event irq 65
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.695093] installing Xen timer for CPU 3
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.699409]    #3cpu 3 spinlock event irq 71
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.705892] installing Xen timer for CPU 4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.710290]    #4cpu 4 spinlock event irq 77
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.715230] installing Xen timer for CPU 5
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.717969]    #5cpu 5 spinlock event irq 83
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.722378] installing Xen timer for CPU 6
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.725182]    #6cpu 6 spinlock event irq 89
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.729554] installing Xen timer for CPU 7
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.732531]    #7cpu 7 spinlock event irq 95
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.736913] installing Xen timer for CPU 8
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.739719]    #8cpu 8 spinlock event irq 101
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.744145] installing Xen timer for CPU 9
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.746901] 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.748300] .... node  #1, CPUs:     #9cpu 9 spinlock event irq 107
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.754202] installing Xen timer for CPU 10
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.756994]   #10cpu 10 spinlock event irq 113
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.761648] installing Xen timer for CPU 11
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.764583]   #11cpu 11 spinlock event irq 119
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.768977] installing Xen timer for CPU 12
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.771886]   #12cpu 12 spinlock event irq 125
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.776308] installing Xen timer for CPU 13
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.779186]   #13cpu 13 spinlock event irq 131
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.783788] installing Xen timer for CPU 14
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.786729]   #14cpu 14 spinlock event irq 137
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.791230] installing Xen timer for CPU 15
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.794120]   #15cpu 15 spinlock event irq 143
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.798621] installing Xen timer for CPU 16
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.801531]   #16cpu 16 spinlock event irq 149
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.806021] installing Xen timer for CPU 17
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.808936]   #17cpu 17 spinlock event irq 155
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.813635] installing Xen timer for CPU 18
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.816478] 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.817876] .... node  #0, CPUs:    #18cpu 18 spinlock event irq 161
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.823763] installing Xen timer for CPU 19
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.826543]   #19cpu 19 spinlock event irq 167
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.830949] installing Xen timer for CPU 20
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.833840]   #20cpu 20 spinlock event irq 173
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.838291] installing Xen timer for CPU 21
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.841319]   #21cpu 21 spinlock event irq 179
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.845822] installing Xen timer for CPU 22
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.848711]   #22cpu 22 spinlock event irq 185
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.853231] installing Xen timer for CPU 23
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.856014]   #23cpu 23 spinlock event irq 191
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.860454] installing Xen timer for CPU 24
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.863371]   #24cpu 24 spinlock event irq 197
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.867877] installing Xen timer for CPU 25
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.870840]   #25cpu 25 spinlock event irq 203
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.875334] installing Xen timer for CPU 26
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.878193]   #26cpu 26 spinlock event irq 209
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.882669] installing Xen timer for CPU 27
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.885466] 
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.886880] .... node  #1, CPUs:    #27cpu 27 spinlock event irq 215
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.892640] installing Xen timer for CPU 28
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.895431]   #28cpu 28 spinlock event irq 221
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.900052] installing Xen timer for CPU 29
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.902947]   #29cpu 29 spinlock event irq 227
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.907346] installing Xen timer for CPU 30
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.910172]   #30cpu 30 spinlock event irq 233
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.914963] installing Xen timer for CPU 31
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.918379]   #31cpu 31 spinlock event irq 239
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.923478] installing Xen timer for CPU 32
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.926820]   #32cpu 32 spinlock event irq 245
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.932156] installing Xen timer for CPU 33
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.935525]   #33cpu 33 spinlock event irq 251
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.940566] installing Xen timer for CPU 34
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.943683]   #34cpu 34 spinlock event irq 257
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.948153] installing Xen timer for CPU 35
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.950991]   #35cpu 35 spinlock event irq 263
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.955500] x86: Booted up 2 nodes, 36 CPUs
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.958362] smpboot: Total of 36 processors activated (208805.61 BogoMIPS)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.964506] devtmpfs: initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.972870] evm: security.selinux
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.975205] evm: security.SMACK64
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.977513] evm: security.SMACK64EXEC
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.979989] evm: security.SMACK64TRANSMUTE
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.982774] evm: security.SMACK64MMAP
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.985285] evm: security.ima
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.987454] evm: security.capability
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.990174] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    5.996320] futex hash table entries: 32768 (order: 9, 2097152 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.000975] RTC time: 11:54:19, date: 07/22/19
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.005994] NET: Registered protocol family 16
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.021092] cpuidle: using governor ladder
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.033251] cpuidle: using governor menu
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.036357] PCCT header not found.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.039284] ACPI: bus type PCI registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.042351] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.047438] PCI: Using configuration type 1 for base access
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.064454] ACPI: Added _OSI(Module Device)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.067710] ACPI: Added _OSI(Processor Device)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.071091] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.074708] ACPI: Added _OSI(Processor Aggregator Device)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.081013] xen: --> pirq=16 -> irq=9 (gsi=9)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.086583] ACPI: Interpreter enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.089630] ACPI: (supports S0 S4 S5)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.092632] ACPI: Using IOAPIC for interrupt routing
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.096449] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.156018] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.160429] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.165299] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.169945] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.178858] acpiphp: Slot [0] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.183300] acpiphp: Slot [3] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.186828] acpiphp: Slot [4] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.190434] acpiphp: Slot [5] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.194462] acpiphp: Slot [6] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.198734] acpiphp: Slot [7] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.202487] acpiphp: Slot [8] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.206171] acpiphp: Slot [9] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.209948] acpiphp: Slot [10] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.213763] acpiphp: Slot [11] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.217508] acpiphp: Slot [12] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.221353] acpiphp: Slot [13] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.225097] acpiphp: Slot [14] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.228591] acpiphp: Slot [15] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.232315] acpiphp: Slot [16] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.236110] acpiphp: Slot [17] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.239807] acpiphp: Slot [18] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.243653] acpiphp: Slot [19] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.247282] acpiphp: Slot [20] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.250948] acpiphp: Slot [21] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.254744] acpiphp: Slot [22] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.258413] acpiphp: Slot [23] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.262199] acpiphp: Slot [24] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.281093] acpiphp: Slot [25] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.285859] acpiphp: Slot [26] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.290570] acpiphp: Slot [27] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.295171] acpiphp: Slot [28] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.299822] acpiphp: Slot [29] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.304320] acpiphp: Slot [30] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.308436] acpiphp: Slot [31] registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.312455] PCI host bridge to bus 0000:00
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.316251] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.322209] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.328274] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.335188] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.342112] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.347362] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.349409] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.352493] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.354180] pci 0000:00:01.1: reg 0x20: [io  0xc100-0xc10f]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.354912] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.361170] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.365810] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.371011] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.376388] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.376530] * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.376530] * this clock source is slow. Consider trying other clock sources
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.388296] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.394877] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.395364] pci 0000:00:02.0: reg 0x10: [mem 0xf0000000-0xf1ffffff pref]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.395674] pci 0000:00:02.0: reg 0x14: [mem 0xf3008000-0xf3008fff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.398177] pci 0000:00:03.0: [8086:10ed] type 00 class 0x020000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.399383] pci 0000:00:03.0: reg 0x10: [mem 0xf3000000-0xf3003fff 64bit pref]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.400334] pci 0000:00:03.0: reg 0x1c: [mem 0xf3004000-0xf3007fff 64bit pref]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.403597] pci 0000:00:1f.0: [5853:0001] type 00 class 0xff8000
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.404187] pci 0000:00:1f.0: reg 0x10: [io  0xc000-0xc0ff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.404518] pci 0000:00:1f.0: reg 0x14: [mem 0xf2000000-0xf2ffffff pref]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.406959] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.413005] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.418723] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.424323] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.445519] ACPI: Enabled 2 GPEs in block 00 to 0F
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.449553] xen:balloon: Initialising balloon driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.453610] vgaarb: setting as boot device: PCI:0000:00:02.0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.457619] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.463459] vgaarb: loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.465768] vgaarb: bridge control possible 0000:00:02.0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.469790] SCSI subsystem initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.472842] libata version 3.00 loaded.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.472864] ACPI: bus type USB registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.475964] usbcore: registered new interface driver usbfs
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.479856] usbcore: registered new interface driver hub
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.483858] usbcore: registered new device driver usb
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.487744] PCI: Using ACPI for IRQ routing
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.490931] PCI: pci_cache_line_size set to 64 bytes
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.491524] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.491680] NetLabel: Initializing
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.494453] NetLabel:  domain hash size = 128
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.497878] NetLabel:  protocols = UNLABELED CIPSOv4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.503822] NetLabel:  unlabeled traffic allowed by default
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.510417] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.517784] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.525786] hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.535997] amd_nb: Cannot enumerate AMD northbridges
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.541535] clocksource: Switched to clocksource xen
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.554046] AppArmor: AppArmor Filesystem Enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.559226] pnp: PnP ACPI init
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.562948] system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.569918] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.569991] system 00:01: [io  0x08a0-0x08a3] has been reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.576169] system 00:01: [io  0x0cc0-0x0ccf] has been reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.582377] system 00:01: [io  0x04d0-0x04d1] has been reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588336] system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588373] xen: --> pirq=17 -> irq=8 (gsi=8)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588391] pnp 00:02: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588415] xen: --> pirq=18 -> irq=12 (gsi=12)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588428] pnp 00:03: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588445] xen: --> pirq=19 -> irq=1 (gsi=1)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588462] pnp 00:04: Plug and Play ACPI device, IDs PNP0303 PNP030b (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588480] xen: --> pirq=20 -> irq=6 (gsi=6)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588482] pnp 00:05: [dma 2]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588494] pnp 00:05: Plug and Play ACPI device, IDs PNP0700 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588518] xen: --> pirq=21 -> irq=4 (gsi=4)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588530] pnp 00:06: Plug and Play ACPI device, IDs PNP0501 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.588567] system 00:07: [io  0x10c0-0x1141] has been reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.594750] system 00:07: [io  0xb044-0xb047] has been reserved
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.600967] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.624917] pnp: PnP ACPI: found 8 devices
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.635780] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.644829] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.644831] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.644833] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.644835] pci_bus 0000:00: resource 7 [mem 0xf0000000-0xfbffffff window]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.644945] NET: Registered protocol family 2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.650415] TCP established hash table entries: 524288 (order: 10, 4194304 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.658864] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.665783] TCP: Hash tables configured (established 524288 bind 65536)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.672624] UDP hash table entries: 32768 (order: 8, 1048576 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.679285] UDP-Lite hash table entries: 32768 (order: 8, 1048576 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.686653] NET: Registered protocol family 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.691442] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.697489] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.703781] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.710380] pci 0000:00:02.0: Video device with shadowed ROM
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.710556] PCI: CLS 0 bytes, default 64
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.710605] Trying to unpack rootfs image as initramfs...
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.867497] Freeing initrd memory: 12412K
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.872083] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.878695] software IO TLB [mem 0xec000000-0xf0000000] (64MB) mapped at [ffff8800ec000000-ffff8800efffffff]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.888774] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 655360 ms ovfl timer
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.897425] hw unit of domain pp0-core 2^-14 Joules
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.902686] hw unit of domain package 2^-14 Joules
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.907899] hw unit of domain dram 2^-16 Joules
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.912982] Scanning for low memory corruption every 60 seconds
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.920498] audit: initializing netlink subsys (disabled)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.926176] audit: type=2000 audit(1563796460.561:1): initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.932703] Initialise system trusted keyring
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.937891] HugeTLB registered 1 GB page size, pre-allocated 0 pages
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.944361] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.951948] zbud: loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.955530] VFS: Disk quotas dquot_6.6.0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.960050] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.967242] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.973468] fuse init (API version 7.23)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.977996] Key type big_key registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.982331] Allocating IMA MOK and blacklist keyrings.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.988344] Key type asymmetric registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.992954] Asymmetric key parser 'x509' registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    6.998093] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.005896] io scheduler noop registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.010310] io scheduler deadline registered (default)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.015841] io scheduler cfq registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.020177] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.026120] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.033370] intel_idle: MWAIT substates: 0x2120
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.033443] intel_idle: v0.4.1 model 0x3F
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.033444] intel_idle: lapic_timer_reliable_states 0x2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.034608] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.041201] ACPI: Power Button [PWRF]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.047386] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.055778] ACPI: Sleep Button [SLPF]
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.061153] xen: --> pirq=22 -> irq=47 (gsi=47)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.061304] xen:grant_table: Grant tables using version 1 layout
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.067954] Grant table initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.072413] Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.078967] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.120296] 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.130430] Linux agpgart interface v0.103
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.142903] brd: module loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.150251] loop: module loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.154601] ata_piix 0000:00:01.1: version 2.13
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.155764] scsi host0: ata_piix
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.157706] blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled;
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.158277]  xvda: xvda1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.176170] scsi host1: ata_piix
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.180504] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.187588] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.195044] libphy: Fixed MDIO Bus: probed
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.198966] tun: Universal TUN/TAP device driver, 1.6
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.204756] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.211614] PPP generic driver version 2.4.2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.216703] xen_netfront: Initialising Xen virtual ethernet driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.223629] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.230672] ehci-pci: EHCI PCI platform driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.235741] ehci-platform: EHCI generic platform driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.241843] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.248458] ohci-pci: OHCI PCI platform driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.252426] ohci-platform: OHCI generic platform driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.256779] uhci_hcd: USB Universal Host Controller Interface driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.262238] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.271510] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.275977] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.280661] mousedev: PS/2 mouse device common for all mice
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.285840] rtc_cmos 00:02: rtc core: registered rtc_cmos as rtc0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.286547] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.298546] rtc_cmos 00:02: alarms up to one day, 114 bytes nvram, hpet irqs
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.304630] i2c /dev entries driver
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.308056] device-mapper: uevent: version 1.0.3
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.312447] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.319661] Intel P-state driver initializing.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.326594] NET: Registered protocol family 10
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.332751] NET: Registered protocol family 17
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.336818] Key type dns_resolver registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.341452] registered taskstats version 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.345085] Loading compiled-in X.509 certificates
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.349658] Loaded X.509 cert 'Build time autogenerated kernel key: 999331f4e42d791a53730c2883c63539f919e8cf'
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.357837] zswap: loaded using pool lzo/zbud
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.364909] Key type trusted registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.373860] Key type encrypted registered
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.377524] AppArmor: AppArmor sha1 policy hashing enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.382435] ima: No TPM chip found, activating TPM-bypass!
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.387198] ima: Allocated hash algorithm: sha1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.391359] evm: HMAC attrs: 0x1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.395079] xenbus_probe_frontend: Device with no driver: device/pci/0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.400564]   Magic number: 11:715:934
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.404308] clockevents clockevent23: hash matches
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.408576] acpi device:fe: hash matches
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.412637] rtc_cmos 00:02: setting system clock to 2019-07-22 11:54:21 UTC (1563796461)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.412757] random: nonblocking pool is initialized
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.423567] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.428312] EDD information not available.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.432126] PM: Hibernation image not present or could not be loaded.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.434170] Freeing unused kernel memory: 1504K
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.461629] Write protecting the kernel read-only data: 14336k
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.467638] Freeing unused kernel memory: 1856K
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.472404] Freeing unused kernel memory: 208K
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.560879] ixgbevf: Intel(R) 10 Gigabit PCI Express Virtual Function Network Driver - version 2.12.1-k
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.586441] ixgbevf: Copyright (c) 2009 - 2015 Intel Corporation.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.605454] AVX2 version of gcm_enc/dec engaged.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.609240] ixgbevf 0000:00:03.0: 02:a4:61:0b:0a:de
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.609241] ixgbevf 0000:00:03.0: MAC: 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.609242] ixgbevf 0000:00:03.0: Intel(R) 82599 Virtual Function
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.623793] AES CTR mode by8 optimization enabled
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.627267] ixgbevf 0000:00:03.0 ens3: renamed from eth0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.909683] tsc: Refined TSC clocksource calibration: 2899.994 MHz
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    7.915309] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29cd3d5c4a9, max_idle_ns: 440795277709 ns
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.105524] md: linear personality registered for level -1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.112785] md: multipath personality registered for level -4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.120514] md: raid0 personality registered for level 0
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.127430] md: raid1 personality registered for level 1
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.181599] raid6: sse2x1   gen() 10220 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.233598] raid6: sse2x1   xor()  8053 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.281598] raid6: sse2x2   gen() 13214 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.329597] raid6: sse2x2   xor()  8842 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.377601] raid6: sse2x4   gen() 15179 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.425601] raid6: sse2x4   xor() 10580 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.473595] raid6: avx2x1   gen() 20105 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.521597] raid6: avx2x2   gen() 23251 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.569599] raid6: avx2x4   gen() 27090 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.573292] raid6: using algorithm avx2x4 gen() 27090 MB/s
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.577814] raid6: using avx2x2 recovery algorithm
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.583508] xor: automatically using best checksumming function:
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.625596]    avx       : 30693.000 MB/sec
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.630664] async_tx: api initialized (async)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.642034] md: raid6 personality registered for level 6
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.646196] md: raid5 personality registered for level 5
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.650452] md: raid4 personality registered for level 4
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.660328] md: raid10 personality registered for level 10
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.696371] Btrfs loaded
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [    9.737251] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   10.230679] EXT4-fs (xvda1): re-mounted. Opts: discard
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   10.350326] Loading iSCSI transport class v2.0-870.
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   10.380070] iscsi: registered transport (tcp)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   10.423271] iscsi: registered transport (iser)
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.031172] audit: type=1400 audit(1563796466.116:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=1007 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.076306] audit: type=1400 audit(1563796466.160:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=1005 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.093404] audit: type=1400 audit(1563796466.176:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=1004 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.149639] audit: type=1400 audit(1563796466.236:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=1006 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.149895] audit: type=1400 audit(1563796466.236:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1006 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.150131] audit: type=1400 audit(1563796466.236:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=1006 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.150357] audit: type=1400 audit(1563796466.236:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1006 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.182545] audit: type=1400 audit(1563796466.268:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=1002 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.182692] audit: type=1400 audit(1563796466.268:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1002 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.225030] audit: type=1400 audit(1563796466.308:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=1008 comm="apparmor_parser"
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.578451] ixgbevf 0000:00:03.0: NIC Link is Up 10 Gbps
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.579962] IPv6: ADDRCONF(NETDEV_UP): ens3: link is not ready
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   12.579980] IPv6: ADDRCONF(NETDEV_CHANGE): ens3: link becomes ready
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   13.026727] ixgbevf 0000:00:03.0: NIC Link is Up 10 Gbps
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   13.028256] IPv6: ADDRCONF(NETDEV_UP): ens3: link is not ready
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   13.028279] IPv6: ADDRCONF(NETDEV_CHANGE): ens3: link becomes ready
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   13.792801] EXT4-fs (xvda1): resizing filesystem from 2096891 to 7864059 blocks
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   13.807541] EXT4-fs (xvda1): resized filesystem to 7864059
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Jul 22 11:54:28 ip-10-0-0-53 rsyslogd-2007: action 'action 11' suspended, next retry is Mon Jul 22 11:54:58 2019 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Jul 22 11:54:28 ip-10-0-0-53 dbus[1397]: [system] AppArmor D-Bus mediation is enabled
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting /etc/rc.local Compatibility...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Login Service...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Unattended Upgrades Shutdown.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Deferred execution scheduler.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started FUSE filesystem for LXC.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Snappy daemon...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting LSB: Record successful boot for GRUB...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Regular background program processing daemon.
+Jul 22 11:54:28 ip-10-0-0-53 acpid: starting up with netlink and the input layer
+Jul 22 11:54:28 ip-10-0-0-53 acpid: 1 rule loaded
+Jul 22 11:54:28 ip-10-0-0-53 acpid: waiting for events: event logging is off
+Jul 22 11:54:28 ip-10-0-0-53 cron[1430]: (CRON) INFO (pidfile fd = 3)
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Pollinate to seed the pseudo random number generator...
+Jul 22 11:54:28 ip-10-0-0-53 cron[1430]: (CRON) INFO (Running @reboot jobs)
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting LXD - container startup/shutdown...
+Jul 22 11:54:28 ip-10-0-0-53 dbus[1397]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Jul 22 11:54:28 ip-10-0-0-53 kernel: [   14.811749] cgroup: new mount options do not match the existing superblock, will be ignored
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started System Logging Service.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started iSCSI initiator daemon (iscsid).
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started /etc/rc.local Compatibility.
+Jul 22 11:54:28 ip-10-0-0-53 pollinate[1433]: client sent challenge to [https://entropy.ubuntu.com/]
+Jul 22 11:54:28 ip-10-0-0-53 mdadm[1391]:  * Starting MD monitoring service mdadm --monitor
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]: hierarchies:
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   0: fd:   5: blkio
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   1: fd:   6: memory
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   2: fd:   7: perf_event
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   3: fd:   8: cpu,cpuacct
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   4: fd:   9: devices
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   5: fd:  10: net_cls,net_prio
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   6: fd:  11: freezer
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   7: fd:  12: pids
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   8: fd:  13: hugetlb
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:   9: fd:  14: cpuset
+Jul 22 11:54:28 ip-10-0-0-53 lxcfs[1416]:  10: fd:  15: name=systemd
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started Login Service.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Starting Login to default iSCSI targets...
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started LSB: Record successful boot for GRUB.
+Jul 22 11:54:28 ip-10-0-0-53 mdadm[1391]:    ...done.
+Jul 22 11:54:28 ip-10-0-0-53 systemd[1]: Started LSB: MD monitoring daemon.
+Jul 22 11:54:29 ip-10-0-0-53 iscsiadm[1488]: iscsiadm: No records found
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Login to default iSCSI targets.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Reached target Remote File Systems (Pre).
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Reached target Remote File Systems.
+Jul 22 11:54:29 ip-10-0-0-53 polkitd[1465]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jul 22 11:54:29 ip-10-0-0-53 dbus[1397]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jul 22 11:54:29 ip-10-0-0-53 accounts-daemon[1389]: started daemon version 0.6.40
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting Permit User Sessions...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting LSB: automatic crash report generation...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Permit User Sessions.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Accounts Service.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Jul 22 11:54:29 ip-10-0-0-53 irqbalance[1512]:  * Starting SMP IRQ Balancer: irqbalance
+Jul 22 11:54:29 ip-10-0-0-53 apport[1519]:  * Starting automatic crash report generation: apport
+Jul 22 11:54:29 ip-10-0-0-53 apport[1519]:    ...done.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting Hold until boot process finishes up...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started LSB: automatic crash report generation.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Hold until boot process finishes up.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Terminate Plymouth Boot Screen.
+Jul 22 11:54:29 ip-10-0-0-53 irqbalance[1512]:    ...done.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting Set console scheme...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Getty on tty1.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Serial Getty on ttyS0.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Reached target Login Prompts.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Set console scheme.
+Jul 22 11:54:29 ip-10-0-0-53 pollinate[1433]: client verified challenge/response with [https://entropy.ubuntu.com/]
+Jul 22 11:54:29 ip-10-0-0-53 pollinate[1433]: client hashed response from [https://entropy.ubuntu.com/]
+Jul 22 11:54:29 ip-10-0-0-53 pollinate[1433]: client successfully seeded [/dev/urandom]
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Pollinate to seed the pseudo random number generator.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started OpenBSD Secure Shell server.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started LXD - container startup/shutdown.
+Jul 22 11:54:29 ip-10-0-0-53 snapd[1420]: AppArmor status: apparmor is enabled and all features are available
+Jul 22 11:54:29 ip-10-0-0-53 snapd[1420]: 2019/07/22 11:54:29.583735 helpers.go:119: error trying to compare the snap system key: system-key missing on disk
+Jul 22 11:54:29 ip-10-0-0-53 snapd[1420]: 2019/07/22 11:54:29.588500 daemon.go:343: started snapd/2.34.2 (series 16; classic) ubuntu/16.04 (amd64) linux/4.4.0-1067-aws.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Started Snappy daemon.
+Jul 22 11:54:29 ip-10-0-0-53 systemd[1]: Starting Wait until snapd is fully seeded...
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1]: Created slice User Slice of ubuntu.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1]: Starting User Manager for UID 1000...
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1]: Started Session 1 of user ubuntu.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Reached target Sockets.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Reached target Paths.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Reached target Timers.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Reached target Basic System.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Reached target Default.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1631]: Startup finished in 10ms.
+Jul 22 11:54:30 ip-10-0-0-53 systemd[1]: Started User Manager for UID 1000.
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Mounting Mount unit for core, revision 5328...
+Jul 22 11:54:33 ip-10-0-0-53 systemd[1]: Mounted Mount unit for core, revision 5328.
+Jul 22 11:54:33 ip-10-0-0-53 snapd[1420]: 2019/07/22 11:54:33.954884 backend.go:303: cannot create host snap-confine apparmor configuration: cannot synchronize snap-confine apparmor profile: open /var/lib/snapd/apparmor/profiles/snap-confine.core.5328.TB31TRyYg8PV~: no such file or directory
+Jul 22 11:54:33 ip-10-0-0-53 kernel: [   19.882794] audit_printk_skb: 9 callbacks suppressed
+Jul 22 11:54:33 ip-10-0-0-53 kernel: [   19.882797] audit: type=1400 audit(1563796473.968:15): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=2394 comm="apparmor_parser"
+Jul 22 11:54:34 ip-10-0-0-53 kernel: [   19.946139] audit: type=1400 audit(1563796474.032:16): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=2396 comm="apparmor_parser"
+Jul 22 11:54:35 ip-10-0-0-53 snapd[1420]: 2019/07/22 11:54:35.211604 daemon.go:531: gracefully waiting for running hooks
+Jul 22 11:54:35 ip-10-0-0-53 snapd[1420]: 2019/07/22 11:54:35.211631 daemon.go:533: done waiting for running hooks
+Jul 22 11:54:35 ip-10-0-0-53 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 22 11:54:35 ip-10-0-0-53 systemd[1]: Stopped Snappy daemon.
+Jul 22 11:54:35 ip-10-0-0-53 systemd[1]: Starting Snappy daemon...
+Jul 22 11:54:35 ip-10-0-0-53 snapd[2594]: AppArmor status: apparmor is enabled and all features are available
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.081675] audit: type=1400 audit(1563796476.168:17): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine" pid=2624 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.081825] audit: type=1400 audit(1563796476.168:18): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5328/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2624 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.097619] audit: type=1400 audit(1563796476.184:19): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.core" pid=2626 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.157625] audit: type=1400 audit(1563796476.244:20): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=2628 comm="apparmor_parser"
+Jul 22 11:54:35 ip-10-0-0-53 snapd[2594]: AppArmor status: apparmor is enabled and all features are available
+Jul 22 11:54:36 ip-10-0-0-53 snapd[2594]: daemon.go:344: started snapd/2.35 (series 16; classic) ubuntu/16.04 (amd64) linux/4.4.0-1067-aws.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Started Snappy daemon.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Mounting Mount unit for amazon-ssm-agent, revision 495...
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Mounted Mount unit for amazon-ssm-agent, revision 495.
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.849717] audit: type=1400 audit(1563796476.936:21): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.amazon-ssm-agent" pid=2916 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.854014] audit: type=1400 audit(1563796476.940:22): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.amazon-ssm-agent.amazon-ssm-agent" pid=2918 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 kernel: [   22.857634] audit: type=1400 audit(1563796476.944:23): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.amazon-ssm-agent.ssm-cli" pid=2920 comm="apparmor_parser"
+Jul 22 11:54:36 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Started Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Started Wait until snapd is fully seeded.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Reached target Multi-User System.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Reached target Graphical Interface.
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Starting Apply the settings specified in cloud-config...
+Jul 22 11:54:37 ip-10-0-0-53 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jul 22 11:54:37 ip-10-0-0-53 cloud-init[2994]: Generating locales (this might take a while)...
+Jul 22 11:54:37 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019/07/22 11:54:37 Failed to load instance info from vault. RegistrationKey does not exist.
+Jul 22 11:54:37 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+Jul 22 11:54:37 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: Initializing new seelog logger
+Jul 22 11:54:37 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: New Seelog Logger Creation Complete
+Jul 22 11:54:37 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 11:54:37 ERROR Error adding the directory to watcher: no such file or directory
+Jul 22 11:54:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 11:54:38 INFO Agent enters hibernate mode. Reducing logging...
+Jul 22 11:54:38 ip-10-0-0-53 cloud-init[2994]:   en_US.UTF-8... done
+Jul 22 11:54:38 ip-10-0-0-53 cloud-init[2994]: Generation complete.
+Jul 22 11:54:38 ip-10-0-0-53 cloud-init[2994]: Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'modules:config' at Mon, 22 Jul 2019 11:54:37 +0000. Up 17.97 seconds.
+Jul 22 11:54:38 ip-10-0-0-53 systemd[1]: Started Apply the settings specified in cloud-config.
+Jul 22 11:54:38 ip-10-0-0-53 systemd[1]: Starting Execute cloud user/final scripts...
+Jul 22 11:54:38 ip-10-0-0-53 ec2: 
+Jul 22 11:54:38 ip-10-0-0-53 ec2: #############################################################
+Jul 22 11:54:38 ip-10-0-0-53 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+Jul 22 11:54:38 ip-10-0-0-53 ec2: 1024 SHA256:cEJUQirfKZzLrPDk3qBmdQy8/Qzg5E9jL+6W23bCCZ0 root@ip-10-0-0-53 (DSA)
+Jul 22 11:54:38 ip-10-0-0-53 ec2: 256 SHA256:T5p+rTf2czBfgQ7ZlCgyil4yd4bQyNQCq+lrjSf1jB0 root@ip-10-0-0-53 (ECDSA)
+Jul 22 11:54:38 ip-10-0-0-53 ec2: 256 SHA256:1cmcSRwaIWp7GyBSpl8tGRSlts+Qv4ld2QvhfM4iCDM root@ip-10-0-0-53 (ED25519)
+Jul 22 11:54:38 ip-10-0-0-53 ec2: 2048 SHA256:WdhX4lS6SoKqzey8UpXULpBHNDWQn6R+aHb+TLSGzYc root@ip-10-0-0-53 (RSA)
+Jul 22 11:54:38 ip-10-0-0-53 ec2: -----END SSH HOST KEY FINGERPRINTS-----
+Jul 22 11:54:38 ip-10-0-0-53 ec2: #############################################################
+Jul 22 11:54:38 ip-10-0-0-53 cloud-init[3090]: Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'modules:final' at Mon, 22 Jul 2019 11:54:38 +0000. Up 19.20 seconds.
+Jul 22 11:54:38 ip-10-0-0-53 cloud-init[3090]: Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 finished at Mon, 22 Jul 2019 11:54:38 +0000. Datasource DataSourceEc2Local.  Up 19.37 seconds
+Jul 22 11:54:39 ip-10-0-0-53 systemd[1]: Started Execute cloud user/final scripts.
+Jul 22 11:54:39 ip-10-0-0-53 systemd[1]: Reached target Cloud-init target.
+Jul 22 11:54:39 ip-10-0-0-53 systemd[1]: Startup finished in 4.317s (kernel) + 15.098s (userspace) = 19.415s.
+Jul 22 11:54:56 ip-10-0-0-53 systemd-timesyncd[975]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Jul 22 11:55:06 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:06 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:08 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:08 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:20 ip-10-0-0-53 dbus[1397]: [system] Reloaded configuration
+Jul 22 11:55:20 ip-10-0-0-53 dbus[1397]: message repeated 4 times: [ [system] Reloaded configuration]
+Jul 22 11:55:30 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:30 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:34 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:34 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:34 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:34 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:35 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:35 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:35 ip-10-0-0-53 dbus[1397]: [system] Reloaded configuration
+Jul 22 11:55:35 ip-10-0-0-53 systemd[1]: Stopped target Sockets.
+Jul 22 11:55:35 ip-10-0-0-53 systemd[1]: Stopping Sockets.
+Jul 22 11:55:35 ip-10-0-0-53 systemd[1]: Reached target Sockets.
+Jul 22 11:55:37 ip-10-0-0-53 dbus-daemon[1397]: Unknown username "colord" in message bus configuration file
+Jul 22 11:55:37 ip-10-0-0-53 dbus[1397]: [system] Reloaded configuration
+Jul 22 11:55:37 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:37 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:39 ip-10-0-0-53 systemd[1]: Reloading.
+Jul 22 11:55:39 ip-10-0-0-53 systemd[1]: Started ACPI event daemon.
+Jul 22 11:55:39 ip-10-0-0-53 dbus[1397]: [system] Reloaded configuration
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1]: Stopping User Manager for UID 1000...
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Reached target Shutdown.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Starting Exit the Session...
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Stopped target Default.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Stopped target Basic System.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Stopped target Paths.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Stopped target Timers.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Stopped target Sockets.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1631]: Received SIGRTMIN+24 from PID 24061 (kill).
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1]: Stopped User Manager for UID 1000.
+Jul 22 11:56:30 ip-10-0-0-53 systemd[1]: Removed slice User Slice of ubuntu.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Created slice User Slice of ubuntu.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Starting User Manager for UID 1000...
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Started Session 2 of user ubuntu.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Paths.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Timers.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Sockets.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Basic System.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Default.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Startup finished in 15ms.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Started User Manager for UID 1000.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Stopping User Manager for UID 1000...
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Reached target Shutdown.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Starting Exit the Session...
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Stopped target Default.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Stopped target Basic System.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Stopped target Timers.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Stopped target Sockets.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Stopped target Paths.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[24069]: Received SIGRTMIN+24 from PID 24108 (kill).
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Stopped User Manager for UID 1000.
+Jul 22 11:56:31 ip-10-0-0-53 systemd[1]: Removed slice User Slice of ubuntu.
+Jul 22 11:59:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 11:59:38 INFO Backing off health check to every 600 minutes for 1800 minutes. Logging will be reduced to one log per backoff period
+Jul 22 11:59:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 11:59:38 ERROR Health ping failed with error - AccessDeniedException: User: arn:aws:sts::695067801333:assumed-role/jpt-short-term-storage-668a08a9-StorageRole-MMDJ718DB3LP/i-0ae052e1ba4718852 is not authorized to perform: ssm:UpdateInstanceInformation on resource: arn:aws:ec2:eu-west-1:695067801333:instance/i-0ae052e1ba4718852
+Jul 22 11:59:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: #011status code: 400, request id: ad9effb0-dcc3-4f3f-8004-2db956984ede
+Jul 22 12:09:53 ip-10-0-0-53 systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 22 12:09:53 ip-10-0-0-53 systemd-tmpfiles[24134]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Jul 22 12:09:53 ip-10-0-0-53 systemd[1]: Started Cleanup of Temporary Directories.
+Jul 22 12:17:01 ip-10-0-0-53 CRON[24144]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 22 12:19:09 ip-10-0-0-53 dhclient[1214]: DHCPREQUEST of 10.0.0.53 on ens3 to 10.0.0.1 port 67 (xid=0xaf1d015)
+Jul 22 12:19:09 ip-10-0-0-53 dhclient[1214]: DHCPACK of 10.0.0.53 from 10.0.0.1
+Jul 22 12:19:09 ip-10-0-0-53 dhclient[1214]: bound to 10.0.0.53 -- renewal in 1769 seconds.
+Jul 22 12:29:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 12:29:38 INFO Backing off health check to every 1200 minutes for 3600 minutes. Logging will be reduced to one log per backoff period
+Jul 22 12:29:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: 2019-07-22 12:29:38 ERROR Health ping failed with error - AccessDeniedException: User: arn:aws:sts::695067801333:assumed-role/jpt-short-term-storage-668a08a9-StorageRole-MMDJ718DB3LP/i-0ae052e1ba4718852 is not authorized to perform: ssm:UpdateInstanceInformation on resource: arn:aws:ec2:eu-west-1:695067801333:instance/i-0ae052e1ba4718852
+Jul 22 12:29:38 ip-10-0-0-53 amazon-ssm-agent.amazon-ssm-agent[2976]: #011status code: 400, request id: 254afae4-3cd9-43be-9df6-bbd65404514f
+Jul 22 12:48:38 ip-10-0-0-53 dhclient[1214]: DHCPREQUEST of 10.0.0.53 on ens3 to 10.0.0.1 port 67 (xid=0xaf1d015)
+Jul 22 12:48:38 ip-10-0-0-53 dhclient[1214]: DHCPACK of 10.0.0.53 from 10.0.0.1
+Jul 22 12:48:38 ip-10-0-0-53 dhclient[1214]: bound to 10.0.0.53 -- renewal in 1688 seconds.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[1]: Created slice User Slice of ubuntu.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[1]: Starting User Manager for UID 1000...
+Jul 22 12:51:09 ip-10-0-0-53 systemd[1]: Started Session 4 of user ubuntu.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Reached target Sockets.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Reached target Paths.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Reached target Timers.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Reached target Basic System.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Reached target Default.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[24185]: Startup finished in 14ms.
+Jul 22 12:51:09 ip-10-0-0-53 systemd[1]: Started User Manager for UID 1000.
+Jul 22 13:13:24 ip-10-0-0-53 systemd[1]: Started Session 5 of user ubuntu.

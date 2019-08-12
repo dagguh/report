@@ -1,0 +1,99 @@
+Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'init-local' at Sat, 18 May 2019 15:40:03 +0000. Up 6.88 seconds.
+Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'init' at Sat, 18 May 2019 15:40:04 +0000. Up 7.92 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+--------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |         Address          |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+--------------------------+---------------+--------+-------------------+
+ci-info: |  ens3  | True |        10.0.0.37         | 255.255.255.0 | global | 02:ee:0b:ad:07:86 |
+ci-info: |  ens3  | True | fe80::ee:bff:fead:786/64 |       .       |  link  | 02:ee:0b:ad:07:86 |
+ci-info: |   lo   | True |        127.0.0.1         |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |         ::1/128          |       .       |  host  |         .         |
+ci-info: +--------+------+--------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+---------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+----------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |    0.0.0.0    |    ens3   |   UG  |
+ci-info: |   1   |   10.0.0.0  | 0.0.0.0  | 255.255.255.0 |    ens3   |   U   |
+ci-info: +-------+-------------+----------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |    ens3   |   U   |
+ci-info: |   3   |   ff00::/8  |    ::   |    ens3   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:ilrcOAUMznCrmSsDVDcwUl9iev3W2NV42j7Kbk08ZNY root@ip-10-0-0-37
+The key's randomart image is:
++---[RSA 2048]----+
+|..+=.= .         |
+| =o+* =       o  |
+| .+.oo .     o o.|
+|.+  ..  . + . ++E|
+|=     . S+ o .=. |
+|.. . = ..     .+ |
+|+   * o       oo.|
+|.. o .      .....|
+|  .         o+   |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:uKGn2IWXTAiPeXjut5cboC1oDhRVOjJ6vnphB7CXNcY root@ip-10-0-0-37
+The key's randomart image is:
++---[DSA 1024]----+
+|   o..           |
+|. . E            |
+| *.* .           |
+|o B*.. .         |
+|.o=.= = S        |
+|.oo=.B =         |
+|..+o* O ..       |
+| +.= *. o.       |
+|.o+ +..o..       |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:FcWVyhBPswZkUZOippph3kmnUj0Chjw1z24TebBW3XU root@ip-10-0-0-37
+The key's randomart image is:
++---[ECDSA 256]---+
+|         oBB*+o.E|
+|    o . ..+=++.. |
+| . o + = ..++.   |
+|  + o B +. .o    |
+|   o + *S        |
+|    o O +        |
+|   o O * .       |
+|    = +          |
+|     .           |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:PhxhGXRmjTWFYTOdL9mbY9OxJxTQVL3icfknEnXztYo root@ip-10-0-0-37
+The key's randomart image is:
++--[ED25519 256]--+
+|       .o ++OOooo|
+|         *..o+*.+|
+|        +    . *B|
+|       . .  .o+*+|
+|        S   oo=.B|
+|       o . E.ooB=|
+|        +    ..o=|
+|         .       |
+|                 |
++----[SHA256]-----+
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'modules:config' at Sat, 18 May 2019 15:40:11 +0000. Up 15.20 seconds.
+Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 running 'modules:final' at Sat, 18 May 2019 15:40:12 +0000. Up 16.40 seconds.
+Cloud-init v. 18.3-9-g2e62cb8a-0ubuntu1~16.04.2 finished at Sat, 18 May 2019 15:40:13 +0000. Datasource DataSourceEc2Local.  Up 16.55 seconds
