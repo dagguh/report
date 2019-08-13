@@ -1,7 +1,8 @@
 package com.atlassian.performance.tools.report.chart
 
 import com.atlassian.performance.tools.report.Point
-import java.util.*
+import com.atlassian.performance.tools.report.color.LabelColor
+import com.atlassian.performance.tools.report.color.SeedLabelColor
 import javax.json.Json
 import javax.json.JsonObject
 
@@ -11,7 +12,8 @@ internal class ChartLine<X>(
     private val type: String,
     private val yAxisId: String,
     private val hidden: Boolean = false,
-    private val cohort: String = ""
+    private val cohort: String = "",
+    private val color: LabelColor = SeedLabelColor()
 ) where X : Comparable<X> {
     fun toJson(): JsonObject {
         val dataBuilder = Json.createArrayBuilder()
@@ -31,8 +33,9 @@ internal class ChartLine<X>(
             chartDataBuilder.add("cohort", cohort)
         }
 
-        chartDataBuilder.add("borderColor", getColor(label))
-        chartDataBuilder.add("backgroundColor", getColor(label))
+        val colorCss = color.color(label).toCss()
+        chartDataBuilder.add("borderColor", colorCss)
+        chartDataBuilder.add("backgroundColor", colorCss)
         chartDataBuilder.add("fill", false)
         chartDataBuilder.add("data", dataBuilder)
         chartDataBuilder.add("yAxisID", yAxisId)
@@ -40,15 +43,5 @@ internal class ChartLine<X>(
         chartDataBuilder.add("lineTension", 0)
 
         return chartDataBuilder.build()
-    }
-
-    private fun getColor(label: String): String {
-        val random = Random(label.hashCode().toLong())
-
-        val g = random.nextInt(255)
-        val r = random.nextInt(255)
-        val b = random.nextInt(255)
-
-        return "rgb($r, $g, $b)"
     }
 }

@@ -2,6 +2,8 @@ package com.atlassian.performance.tools.report.distribution
 
 import com.atlassian.performance.tools.report.api.result.EdibleResult
 import com.atlassian.performance.tools.report.api.result.LocalRealResult
+import com.atlassian.performance.tools.report.color.Color
+import com.atlassian.performance.tools.report.color.PaletteLabelColor
 import com.atlassian.performance.tools.workspace.api.git.GitRepo
 import com.atlassian.performance.tools.workspace.api.git.HardcodedGitRepo
 import org.assertj.core.api.Assertions.assertThat
@@ -12,6 +14,14 @@ import java.nio.file.Paths
 import java.time.Duration
 
 class DistributionComparisonTest {
+
+    private val adgSecondaryPalette = listOf(
+        Color(255, 86, 48),
+        Color(255, 171, 0),
+        Color(54, 179, 126),
+        Color(0, 184, 217),
+        Color(101, 84, 192)
+    )
 
     /**
      * If you want to update the expected HTML, just copy the contents of the file located by the printed path.
@@ -56,7 +66,10 @@ class DistributionComparisonTest {
             }
             .map { loadHwrRun(it) }
 
-        DistributionComparison(GitRepo.findFromCurrentDirectory()).compare(
+        DistributionComparison(
+            repo = GitRepo.findFromCurrentDirectory(),
+            color = PaletteLabelColor(adgSecondaryPalette)
+        ).compare(
             results = brokenBoardsResults.map { avoidBuggedErrorDetectionTimeouts(it) } + fixedBoardsResults,
             output = Paths.get("build/browse-boards-quantile.html")
         )

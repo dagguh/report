@@ -1,16 +1,20 @@
 package com.atlassian.performance.tools.report.distribution
 
 import com.atlassian.performance.tools.io.api.ensureParentDirectory
-import com.atlassian.performance.tools.report.*
+import com.atlassian.performance.tools.report.JsonStyle
+import com.atlassian.performance.tools.report.Point
 import com.atlassian.performance.tools.report.api.result.EdibleResult
 import com.atlassian.performance.tools.report.chart.Chart
 import com.atlassian.performance.tools.report.chart.ChartLine
+import com.atlassian.performance.tools.report.color.LabelColor
+import com.atlassian.performance.tools.report.color.SeedLabelColor
 import com.atlassian.performance.tools.workspace.api.git.GitRepo
 import org.apache.logging.log4j.LogManager
 import java.nio.file.Path
 
 internal class DistributionComparison(
-    private val repo: GitRepo
+    private val repo: GitRepo,
+    private val color: LabelColor = SeedLabelColor()
 ) {
 
     private val logger = LogManager.getLogger(this::class.java)
@@ -58,7 +62,8 @@ internal class DistributionComparison(
                         cohort = result.cohort,
                         type = "line",
                         yAxisId = yAxisId,
-                        hidden = false
+                        hidden = false,
+                        color = color
                     )
                 }
         }
